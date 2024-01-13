@@ -45,7 +45,7 @@ jobs: # list of things to do
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Lint with Pylint
         run: pylint *.py
-             echo "The date is"  $(date)
+        run: echo "The date is"  $(date)
         working-directory: functions/sample/python
 
   lint_django_server:
