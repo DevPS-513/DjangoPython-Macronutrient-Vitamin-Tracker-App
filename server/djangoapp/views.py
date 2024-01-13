@@ -41,9 +41,9 @@ def contact(request):
 # ...
 
 # Create a `logout_request` view to handle sign out request
-# def logout_request(request):
-# ...
-
+def logout_view(request):
+    logout(request)
+    return redirect('djangoapp:home')
 # Create a `registration_request` view to handle sign up request
 def register(request):
 
@@ -52,7 +52,7 @@ def register(request):
         if form.is_valid():
             user= form.save()
             login(request,user)
-            return redirect('/home')
+            return redirect('djangoapp/home')
     else:
         form = RegisterForm()
 

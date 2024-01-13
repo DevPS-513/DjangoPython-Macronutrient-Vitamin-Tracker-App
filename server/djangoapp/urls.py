@@ -24,6 +24,7 @@ urlpatterns = [
     # path('login/',views.login,name='sign_up'),
 
     # path for logout
+    path('logout/', views.logout_view, name='logout'),
 
   #  path(route='/', view=views.get_dealerships, name='home'),
 

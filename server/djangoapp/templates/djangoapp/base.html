@@ -36,9 +36,9 @@
                 {% if user.is_authenticated %}
                 <span class="navbar-text">Logged in as {{user.username}}  </span>
                 <li class="nav-item">
-                  <form method="post" action="{% url 'logout' %}">
+                  <form method="post" action="{% url 'djangoapp:logout' %}">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-link nav-link">Logout</button>
+                    <button type="submit" class="btn btn-link nav-link" >Logout</button>
                   </form>
                 </li>
                 {% else %}
