@@ -12,9 +12,7 @@ param_dict ={
     "COUCH_URL": "72144af7-975a-4c8a-b653-48177d4a207d-bluemix.cloudantnosqldb.appdomain.cloud" ,
     "IAM_API_KEY": "ySahisbUPABXdqzJc77nAytbcIFLdzMAiLeGuTPRWw5l",
     "COUCH_USERNAME": "72144af7-975a-4c8a-b653-48177d4a207d-bluemix",
-}
-	
-#https://72144af7-975a-4c8a-b653-48177d4a207d-bluemix.cloudantnosqldb.appdomain.cloud
+}	
 
 def main(param_dict):
     """Main Function

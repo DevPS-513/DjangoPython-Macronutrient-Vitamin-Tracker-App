@@ -29,10 +29,18 @@ function get_dealerships(params) {
     return  getAllRecords(cloudant,"dealerships");
 }
 
+function get_reviews(params) {
 
+    const authenticator = new IamAuthenticator({ apikey: params.IAM_API_KEY })
+    const cloudant = CloudantV1.newInstance({
+      authenticator: authenticator
+    });
+    cloudant.setServiceUrl(params.COUCH_URL);
 
+    let dbListPromise = getDbs(cloudant);
 
-
+    return  getAllRecords(cloudant,"reviews");
+}
 
 function getDbs(cloudant) {
      return new Promise((resolve, reject) => {
@@ -65,14 +73,11 @@ function getDbs(cloudant) {
                      reject({ err: err });
                  });
           })
- }
- 
+ } 
                         
  /*
  Sample implementation to get all the records in a db.
  */
-
-
 
  function getAllRecords(cloudant,dbname) {
      return new Promise((resolve, reject) => {
@@ -87,14 +92,11 @@ function getDbs(cloudant) {
          })
  }
 
-
-
  app.listen(
     PORT,
     () => console.log(`its alive on http://localhost:${PORT}`)
     
     )
-
 
     app.get('/api/dealership',(req,res)=> {
 
@@ -103,7 +105,6 @@ function getDbs(cloudant) {
         state=state.replace(/"/g,'');
         state=state.replace(/`/g,'');
         }
-
 
         get_dealerships(params)
         .then(result => {
@@ -119,18 +120,20 @@ function getDbs(cloudant) {
 
     });
 
-
     app.get('/api/review',(req,res)=> {
 
         let dealerID = req.query.dealerID;
-        console.log(dealerID)
-
+        if(dealerID){
+            dealerID=dealerID.replace(/"/g,'');
+            dealerID=dealerID.replace(/`/g,'');
+            }
 
         get_reviews(params)
         .then(result => {
-            if (state) {
+            if (dealerID) {
 
-                let filteredResult = result.result.filter(dealership=> dealership.doc.state === state);
+                let filteredResult = result.result.filter(review=> Number(review.doc.id) === Number(dealerID));
+                console.log(filteredResult)
                     res.status(200).send(filteredResult);
             } else {
                 res.status(200).send(result);
