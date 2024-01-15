@@ -3,7 +3,7 @@
  */
 const express = require('express');
 const app=express()
-const PORT = 8080;
+const PORT = 5000;
 const bodyParser = require('body-parser');
 
 const { CloudantV1 } = require('@ibm-cloud/cloudant');
@@ -100,17 +100,30 @@ function getDbs(cloudant) {
 
     app.get('/api/dealership',(req,res)=> {
 
-        let state = req.query.state;
-        if(state){
-        state=state.replace(/"/g,'');
-        state=state.replace(/`/g,'');
+        let filterProperty;
+        let filterValue;
+    
+        for (let prop in req.query) {
+            filterProperty = prop;
+            filterValue = req.query[prop];
         }
+    
+
+        if(filterValue){
+        filterValue=filterValue.replace(/"/g,'');
+        filterValue=filterValue.replace(/`/g,'');
+        }
+
+        if(filterProperty){
+            filterProperty=filterProperty.replace(/"/g,'');
+            filterProperty=filterProperty.replace(/`/g,'');
+            }
 
         get_dealerships(params)
         .then(result => {
-            if (state) {
+            if (filterProperty && filterValue ) {
 
-                let filteredResult = result.result.filter(dealership=> dealership.doc.state === state);
+                let filteredResult = result.result.filter(dealership=> dealership.doc[filterProperty] == filterValue);
                     res.status(200).send(filteredResult);
             } else {
                 res.status(200).send(result);

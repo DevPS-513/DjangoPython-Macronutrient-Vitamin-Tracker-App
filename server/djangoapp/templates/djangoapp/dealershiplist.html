@@ -1,0 +1,12 @@
+{% extends 'djangoapp/base.html' %}
+
+{%block title %} Dealership List {% endblock %}
+
+{% load static %}
+
+{% block content %}
+<p> List of Dealerships received is: <p>
+    <br></br>
+<p> {{ dealerships }} </p>
+
+{% endblock %}

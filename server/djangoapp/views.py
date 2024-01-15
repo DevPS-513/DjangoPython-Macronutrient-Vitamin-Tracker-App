@@ -11,6 +11,8 @@ import logging
 import json
 from .forms import RegisterForm
 
+from .restapis import get_request,get_dealers_from_cf
+
 
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
@@ -63,7 +65,11 @@ def register(request):
 def get_dealerships(request):
     context = {}
     if request.method == "GET":
-        return render(request, 'djangoapp/index.html', context)
+
+        dealerships=get_request("http://127.0.0.1:5000/api/dealership",state="Texas")
+
+
+        return render(request, 'djangoapp/dealershiplist.html', {"dealerships": dealerships})
 
 
 # Create a `get_dealer_details` view to render the reviews of a dealer
