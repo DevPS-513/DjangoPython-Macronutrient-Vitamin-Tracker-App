@@ -15,8 +15,7 @@ from .models import CarDealer
 
 def get_request(url,**kwargs):
     
-    print(kwargs)
-    print(f'GET from{url}')
+    print(f'calling restapis.get_request({url})','with args',kwargs)
 
     try:
         response = requests.get(url, headers={'Content-Type': 'application/json'},
@@ -25,9 +24,11 @@ def get_request(url,**kwargs):
         print("could not connect")
 
     status_code=response.status_code
-    print(f'With status {status_code} ')
+    print(f'With status {status_code}')
     print('received as text'+response.text)
     return response.text
+
+
 
 # Create a `post_request` to make HTTP POST requests
 # e.g., response = requests.post(url, params=kwargs, json=payload)
@@ -41,11 +42,17 @@ def get_request(url,**kwargs):
 def get_dealers_from_cf(url, **kwargs):
 
     results=[]
-    json_result=get_request(url)
+    json_result=json.loads(get_request(url))
+    print("\n")
+    print("json result is ",type(json_result),"\n")
+    print("json_result looks like",json_result,"\n")
+    print("json_keys look like",json_result.keys(),"\n")
 
     if json_result:
-        dealers = json_result["rows"]
-        for dealer in dealers:
+        #dealers = json_result["rows"]
+        for dealer in json_result['result']:
+            print("dealer is type",type(dealer),"\n")
+            print('and looks like\n',dealer)
             dealer_doc=dealer["doc"]
 
             dealer_obj = CarDealer(address=dealer_doc["address"], city=dealer_doc["city"], full_name=dealer_doc["full_name"],

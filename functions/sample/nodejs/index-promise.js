@@ -135,18 +135,33 @@ function getDbs(cloudant) {
 
     app.get('/api/review',(req,res)=> {
 
-        let dealerID = req.query.dealerID;
-        if(dealerID){
-            dealerID=dealerID.replace(/"/g,'');
-            dealerID=dealerID.replace(/`/g,'');
+        let filterProperty;
+        let filterValue;
+    
+        for (let prop in req.query) {
+            filterProperty = prop;
+            filterValue = req.query[prop];
+        }
+    
+
+        if(filterValue){
+        filterValue=filterValue.replace(/"/g,'');
+        filterValue=filterValue.replace(/`/g,'');
+        }
+
+        if(filterProperty){
+            filterProperty=filterProperty.replace(/"/g,'');
+            filterProperty=filterProperty.replace(/`/g,'');
             }
+
+        console.log(filterProperty)
+        console.log(filterValue)
 
         get_reviews(params)
         .then(result => {
-            if (dealerID) {
-
-                let filteredResult = result.result.filter(review=> Number(review.doc.id) === Number(dealerID));
-                console.log(filteredResult)
+            if (filterProperty && filterValue ) {
+                console.log(result.result)
+                let filteredResult = result.result.filter(review=> review.doc[filterProperty] == filterValue);
                     res.status(200).send(filteredResult);
             } else {
                 res.status(200).send(result);
