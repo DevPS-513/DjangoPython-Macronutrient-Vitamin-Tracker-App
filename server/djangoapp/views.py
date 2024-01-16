@@ -12,7 +12,14 @@ import json
 from .forms import RegisterForm
 
 from .restapis import get_request,get_dealers_from_cf,get_dealer_reviews_from_cf
+import nltk
+nltk.download('vader_lexicon')
 
+from nltk.sentiment import SentimentIntensityAnalyzer
+sia = SentimentIntensityAnalyzer()
+
+with open(r"C:\localkeys\IBM_Watson_Credential.txt", 'r') as f:
+    watson_api_keys = json.load(f)
 
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
@@ -65,7 +72,7 @@ def register(request):
 def get_dealer_details(request):
     context = {}
         #dealerships=get_request("http://127.0.0.1:5000/api/dealership",id=1)
-    if request.method == "POST":
+    if request.method == "GET":
         id = request.POST.get('id')
         dealerships = get_dealers_from_cf("http://127.0.0.1:5000/api/dealership", id=id)
     else:
@@ -85,6 +92,22 @@ def get_reviews(request):
     else:
         reviews = []
     return render(request, 'djangoapp/reviewlist.html', {"reviews": reviews})
+
+
+
+def test_nlu(request):
+    context = {}
+    
+    reply='Initialized_to_None'
+
+    if(request.method == 'GET'):
+
+
+        reply=sia.polarity_scores("I love you") 
+
+
+    return render(request, 'djangoapp/testnlu.html', {"watsonreply": reply})
+
 
 
 

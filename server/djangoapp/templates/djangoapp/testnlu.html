@@ -1,0 +1,12 @@
+{% extends 'djangoapp/base.html' %}
+
+{%block title %} Test NLU {% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+<p> Output from Watson NLU Call <p>
+<br></br>
+{{watsonreply}}
+{% endblock %}

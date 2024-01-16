@@ -12,31 +12,48 @@ from .models import CarDealer,DealerReview
 # e.g., response = requests.get(url, params=params, headers={'Content-Type': 'application/json'},
 #                                     auth=HTTPBasicAuth('apikey', api_key))
 
+import nltk
+nltk.download('vader_lexicon')
+
+from nltk.sentiment import SentimentIntensityAnalyzer
+sia = SentimentIntensityAnalyzer()
+
 def get_request(url,**kwargs):
     
     print(f'calling restapis.get_request({url})')
 
-    api_key=kwargs.pop('api_key',None)
+    apikey=kwargs.pop('apikey',None)
+    headers=kwargs.pop('headers',None)
+    data=kwargs.pop('data',None)
 
     try:
         
-        if( api_key ):
-            response = requests.get(url, headers={'Content-Type': 'application/json'},
-                                    params=kwargs,auth=HTTPBasicAuth('apikey', api_key))
+        if( apikey ):
+            response=requests.post(url, headers=headers,data=data, auth=HTTPBasicAuth('apikey', apikey))
         else:
             response = requests.get(url, headers={'Content-Type': 'application/json'},
                                     params=kwargs)
             
         return response.text
 
-    except:
-        print("could not connect")
+    except Exception as e:
+        print(e)
         return ''
 
 
 
 
 # Create a `post_request` to make HTTP POST requests
+    
+def post_request(url,**kwargs):
+    
+
+    response = requests.post(url, params=kwargs, json=payload)
+
+            
+    return response.text
+
+
 # e.g., response = requests.post(url, params=kwargs, json=payload)
 
 
@@ -95,6 +112,14 @@ def get_dealer_reviews_from_cf(url, **kwargs):
                     setattr(dealer_obj,var,dealer["doc"][var])
                 except:
                     setattr(dealer_obj,var,None)
+
+            
+            # Now set the Sentiment
+            try:
+                setattr(dealer_obj,'sentiment',sia.polarity_scores(dealer_obj.review) )
+            except:
+                setattr(dealer_obj,'sentiment',"None" )
+
        
             results.append(dealer_obj)
     return results
