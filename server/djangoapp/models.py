@@ -57,16 +57,26 @@ class CarDealer:
 
     def __str__(self):
         return "Dealer name: " + self.full_name
+    
 
-
+    def get_fields(self):
+        return vars(self)
 
 # <HINT> Create a plain Python class `DealerReview` to hold review data
 
 class DealerReview:
 
-    def __init__(self,dealership,name,
-                 purchase,review,purchase_date,car_make,
-                 car_model,car_year,sentiment,id):
+    def __init__(self=None,
+                 dealership=None,
+                 name=None,
+                 purchase=None,
+                 review=None,
+                 purchase_date=None,
+                 car_make=None,
+                 car_model=None,
+                 car_year=None,
+                 sentiment=None,
+                 id=None):
         self.dealership=dealership
         self.name=name
         self.purchase=purchase
@@ -78,4 +88,12 @@ class DealerReview:
         self.sentiment=sentiment
         self.id=id 
 
-        
+    def __str__(self):
+        return "Reviewer name: " + self.name
+    
+
+    def get_fields(self):
+        return vars(self)
+
+
+

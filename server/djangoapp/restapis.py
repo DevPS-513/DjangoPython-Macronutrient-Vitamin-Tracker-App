@@ -2,7 +2,7 @@ import requests
 import json
 # import related models here
 from requests.auth import HTTPBasicAuth
-from .models import CarDealer
+from .models import CarDealer,DealerReview
 
 # im using the index-promise.js from previous
 # lab since the functions option does not exist anymore in IBM cloud
@@ -42,23 +42,58 @@ def get_request(url,**kwargs):
 def get_dealers_from_cf(url, **kwargs):
 
     results=[]
-    json_result=json.loads(get_request(url))
-    print("\n")
-    print("json result is ",type(json_result),"\n")
-    print("json_result looks like",json_result,"\n")
-    print("json_keys look like",json_result.keys(),"\n")
+    json_result=json.loads(get_request(url,**kwargs))
+
+    if isinstance(json_result,dict) and 'result' in json_result:
+        dealers=json_result['result']
+    elif isinstance(json_result,list):
+        dealers=json_result
+    else:
+        print("unexpected format of json result")
+        return []
 
     if json_result:
         #dealers = json_result["rows"]
-        for dealer in json_result['result']:
-            print("dealer is type",type(dealer),"\n")
-            print('and looks like\n',dealer)
+        for dealer in dealers:
             dealer_doc=dealer["doc"]
 
             dealer_obj = CarDealer(address=dealer_doc["address"], city=dealer_doc["city"], full_name=dealer_doc["full_name"],
                                    id=dealer_doc["id"], lat=dealer_doc["lat"], long=dealer_doc["long"],
                                    short_name=dealer_doc["short_name"],
                                    st=dealer_doc["st"], zip=dealer_doc["zip"])
+            results.append(dealer_obj)
+    return results
+
+def get_dealer_reviews_from_cf(url, **kwargs):
+
+    results=[]
+    json_result=json.loads(get_request(url,**kwargs))
+
+    if isinstance(json_result,dict) and 'result' in json_result:
+        dealers=json_result['result']
+    elif isinstance(json_result,list):
+        dealers=json_result
+    else:
+        print("unexpected format of json result")
+        return []
+
+    if json_result:
+        #dealers = json_result["rows"]
+        for dealer in dealers:
+            print("\n")
+            print(dealer)
+            print("\n")
+
+            dealer_obj=DealerReview()
+
+            for var in dealer_obj.get_fields():
+
+                try:
+                    setattr(dealer_obj,var,dealer["doc"][var])
+                except:
+                    setattr(dealer_obj,var,None)
+
+       
             results.append(dealer_obj)
     return results
 

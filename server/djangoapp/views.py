@@ -11,7 +11,7 @@ import logging
 import json
 from .forms import RegisterForm
 
-from .restapis import get_request,get_dealers_from_cf
+from .restapis import get_request,get_dealers_from_cf,get_dealer_reviews_from_cf
 
 
 # Get an instance of a logger
@@ -62,21 +62,31 @@ def register(request):
 
 
 # Update the `get_dealerships` view to render the index page with a list of dealerships
-def get_dealerships(request):
+def get_dealer_details(request):
     context = {}
-    if request.method == "GET":
-
         #dealerships=get_request("http://127.0.0.1:5000/api/dealership",id=1)
-        dealerships=get_dealers_from_cf("http://127.0.0.1:5000/api/dealership",id=1)
-
-        dealer_names = '\n '.join([dealer.short_name for dealer in dealerships])
-
-        return render(request, 'djangoapp/dealershiplist.html', {"dealerships": dealer_names})
+    if request.method == "POST":
+        id = request.POST.get('id')
+        dealerships = get_dealers_from_cf("http://127.0.0.1:5000/api/dealership", id=id)
+    else:
+        dealerships = []
+    return render(request, 'djangoapp/dealershiplist.html', {"dealerships": dealerships})
 
 
 # Create a `get_dealer_details` view to render the reviews of a dealer
 # def get_dealer_details(request, dealer_id):
 # ...
+
+def get_reviews(request):
+    context = {}
+    if request.method == "POST":
+        id = request.POST.get('id')
+        reviews = get_dealer_reviews_from_cf("http://127.0.0.1:5000/api/review", id=id)
+    else:
+        reviews = []
+    return render(request, 'djangoapp/reviewlist.html', {"reviews": reviews})
+
+
 
 
 

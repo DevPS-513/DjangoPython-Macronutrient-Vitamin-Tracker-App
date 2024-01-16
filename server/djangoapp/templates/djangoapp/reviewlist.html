@@ -1,21 +1,21 @@
 {% extends 'djangoapp/base.html' %}
 
-{%block title %} Dealership List {% endblock %}
+{%block title %} Review List {% endblock %}
 
 {% load static %}
 
 {% block content %}
 <form method="post">
     {% csrf_token %}
-    <p> Dealership List <p>
+    <p> Review List <p> <br></br>
     <label for="id">Enter Dealership ID:</label><br>
     <input type="text" id="id" name="id"><br>
     <input type="submit" value="Submit">
 </form>
 <ul>
-    {% for dealership in dealerships %}
+    {% for review in reviews %}
         <li>
-        {% for field_name, field_value in dealership.get_fields.items %}
+        {% for field_name, field_value in review.get_fields.items %}
             {{ field_name }}: {{ field_value }}<br>
         {% endfor %}
         </li>
