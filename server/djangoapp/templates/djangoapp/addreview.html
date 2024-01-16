@@ -1,0 +1,30 @@
+{% extends 'djangoapp/base.html' %}
+
+{%block title %} Add Review {% endblock %}
+
+{% load static %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <p> Review List <p> <br></br>
+    <label for="id">Enter Dealership ID:</label><br>
+    <input type="text" id="id" name="id"><br>
+    <input type="submit" value="Submit">
+
+<ul>
+        <li>
+        {% for field_name, field_value in emptyform.items %}
+            {{ field_name }}: <input type="text" name="{{ field_name }}"><br>
+        {% endfor %}
+
+        </li>
+    </form>
+        <br>
+        <p> New Data to Add is
+        {% for field_name, field_value in formdata.items %}
+        {{ field_name }}: {{ field_value }}<br>
+    {% endfor %}
+        
+    </ul>
+{% endblock %}

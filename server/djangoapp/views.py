@@ -11,6 +11,8 @@ import logging
 import json
 from .forms import RegisterForm
 
+from .models import CarDealer,CarMake,CarModel,DealerReview
+
 from .restapis import get_request,get_dealers_from_cf,get_dealer_reviews_from_cf
 import nltk
 nltk.download('vader_lexicon')
@@ -92,6 +94,37 @@ def get_reviews(request):
     else:
         reviews = []
     return render(request, 'djangoapp/reviewlist.html', {"reviews": reviews})
+
+
+def add_review(request):
+    formdata = DealerReview()
+    emptyform = vars(formdata)
+
+    print(request.POST)
+
+    if request.method == "POST":
+        id = request.POST.get('id')
+        print("id is ", id)
+        reviews = []
+        for var in emptyform.keys():
+            try:
+                print(var)
+                print( request.POST.get(var))
+                setattr(formdata, var, request.POST.get(var))
+            except Exception as e:
+                print("error")
+                setattr(formdata, var, "None")
+
+
+
+        formdata = vars(formdata)  # Update formdata with the saved data
+    else:
+        reviews = []
+
+    for val in formdata:
+        print(val,formdata[val])
+
+    return render(request, 'djangoapp/addreview.html', {"emptyform": emptyform, "formdata": formdata})
 
 
 
