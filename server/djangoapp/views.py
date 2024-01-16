@@ -71,20 +71,54 @@ def register(request):
 
 
 # Update the `get_dealerships` view to render the index page with a list of dealerships
-def get_dealer_details(request):
+def get_dealerships(request):
     context = {}
         #dealerships=get_request("http://127.0.0.1:5000/api/dealership",id=1)
-    if request.method == "GET":
+    if request.method == "GET" :
+        dealerships = get_dealers_from_cf("http://127.0.0.1:5000/api/dealership")
+    elif request.method =="POST":
         id = request.POST.get('id')
         dealerships = get_dealers_from_cf("http://127.0.0.1:5000/api/dealership", id=id)
     else:
         dealerships = []
-    return render(request, 'djangoapp/dealershiplist.html', {"dealerships": dealerships})
+
+    context['dealerships']=dealerships
+    print(dealerships)
+
+    DealerProperties=CarDealer()
+
+    context['fieldnames']=DealerProperties.get_frontend_fieldnames()
+
+    return render(request, 'djangoapp/dealershiplist.html', context)
 
 
 # Create a `get_dealer_details` view to render the reviews of a dealer
 # def get_dealer_details(request, dealer_id):
 # ...
+
+# Update the `get_dealerships` view to render the index page with a list of dealerships
+def get_dealer_details(request):
+    context = {}
+        #dealerships=get_request("http://127.0.0.1:5000/api/dealership",id=1)
+    
+
+    if request.method == "GET":
+        id = request.GET.get('id')
+        dealerships = get_dealers_from_cf("http://127.0.0.1:5000/api/dealership", id=id)
+        print()
+    else:
+        dealerships ={'not':'found'}
+
+
+    if(len(dealerships)==1):
+        dealerships=list(dealerships)[0]
+
+
+    context['dealer']=dealerships
+ 
+    return render(request, 'djangoapp/get_dealer_details.html', context)
+
+
 
 def get_reviews(request):
     context = {}
@@ -121,8 +155,7 @@ def add_review(request):
     else:
         reviews = []
 
-    for val in formdata:
-        print(val,formdata[val])
+ 
 
     return render(request, 'djangoapp/addreview.html', {"emptyform": emptyform, "formdata": formdata})
 

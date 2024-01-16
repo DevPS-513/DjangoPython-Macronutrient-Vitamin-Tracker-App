@@ -3,22 +3,29 @@
 {%block title %} Dealership List {% endblock %}
 
 {% load static %}
-
+{% load getattribute %}
 {% block content %}
-<form method="post">
-    {% csrf_token %}
-    <p> Dealership List <p>
-    <label for="id">Enter Dealership ID:</label><br>
-    <input type="text" id="id" name="id"><br>
-    <input type="submit" value="Submit">
-</form>
-<ul>
-    {% for dealership in dealerships %}
-        <li>
-        {% for field_name, field_value in dealership.get_fields.items %}
-            {{ field_name }}: {{ field_value }}<br>
+<table class="table" id="table">
+    <thead>
+        <tr>
+            {% for fieldname in fieldnames %}
+            <th data-field="{{fieldname}}">{{fieldname}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for dealer in dealerships %}
+            <tr>
+                {% for fieldname in fieldnames %}
+                {% if fieldname == "full_name" %}                    
+                <td><a href="{% url 'djangoapp:get_dealer_details' %}?id={{dealer.id}}">{{dealer.full_name}}</a></td>                                    {% else %}
+                <td>{{ dealer|getattribute:fieldname }}</td>           
+
+                {% endif %}
+                {% endfor %}
+                
+            </tr>
         {% endfor %}
-        </li>
-    {% endfor %}
-    </ul>
+    </tbody>
+</table>
 {% endblock %}

@@ -42,24 +42,37 @@ class CarModel(models.Model):
     
 class CarDealer:
 
-    def __init__(self,address,city,
-                 full_name,id,lat,long,
-                 short_name,st,zip):
-        self.address=address
-        self.city=city
-        self.full_name=full_name
+    def __init__(self=None,
+                 address=None,
+                 city=None,
+                 full_name=None,
+                 id=None,
+                 lat=None,
+                 long=None,
+                 short_name=None,
+                 st=None,
+                 zip=None):
         self.id=id
+        self.full_name=full_name
+        self.city=city
+        self.address=address      
         self.lat=lat
         self.long=long
         self.short_name=short_name
         self.st=st
         self.zip=zip
+        self.important_fields_names=['id','full_name','city','address','zip','state']
+
+
 
     def __str__(self):
-        return "Dealer name: " + self.full_name    
+        return f"Dealer name:  { self.full_name}"    
 
     def get_fields(self):
         return vars(self)
+    
+    def get_frontend_fieldnames(self):
+        return {k: v for k,v in vars(self).items() if k in self.important_fields_names}
 
 # <HINT> Create a plain Python class `DealerReview` to hold review data
 
@@ -88,7 +101,7 @@ class DealerReview:
         self.id=id 
 
     def __str__(self):
-        return "Reviewer name: " + self.name
+        return f"Reviewer name: {self.name}"
     
 
     def get_fields(self):

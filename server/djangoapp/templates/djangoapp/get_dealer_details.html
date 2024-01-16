@@ -1,0 +1,25 @@
+{% extends 'djangoapp/base.html' %}
+
+{%block title %} Dealership Details {% endblock %}
+
+{% load static %}
+{% load getattribute %}
+
+{% block content %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Field Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for fieldname in dealer.get_fields %}
+                <tr>
+                    <td>{{ fieldname }}</td>
+                    <td>{{ dealer|getattribute:fieldname }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

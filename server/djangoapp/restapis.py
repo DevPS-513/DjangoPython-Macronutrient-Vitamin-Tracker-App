@@ -47,7 +47,7 @@ def get_request(url,**kwargs):
     
 def post_request(url,**kwargs):
     
-
+    payload={}
     response = requests.post(url, params=kwargs, json=payload)
 
             
@@ -85,6 +85,8 @@ def get_dealers_from_cf(url, **kwargs):
                                    st=dealer_doc["st"], zip=dealer_doc["zip"])
             
             results.append(dealer_obj)
+
+    
     return results
 
 def get_dealer_reviews_from_cf(url, **kwargs):
