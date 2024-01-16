@@ -14,15 +14,25 @@ from .models import CarDealer,DealerReview
 
 def get_request(url,**kwargs):
     
-    print(f'calling restapis.get_request({url})','with args',kwargs)
+    print(f'calling restapis.get_request({url})')
+
+    api_key=kwargs.pop('api_key',None)
 
     try:
-        response = requests.get(url, headers={'Content-Type': 'application/json'},
+        
+        if( api_key ):
+            response = requests.get(url, headers={'Content-Type': 'application/json'},
+                                    params=kwargs,auth=HTTPBasicAuth('apikey', api_key))
+        else:
+            response = requests.get(url, headers={'Content-Type': 'application/json'},
                                     params=kwargs)
+            
+        return response.text
+
     except:
         print("could not connect")
+        return ''
 
-    return response.text
 
 
 
