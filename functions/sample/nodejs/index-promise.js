@@ -9,11 +9,8 @@ const bodyParser = require('body-parser');
 const { CloudantV1 } = require('@ibm-cloud/cloudant');
 const { IamAuthenticator } = require('ibm-cloud-sdk-core');
 
-const params={
-    COUCH_URL: "https://72144af7-975a-4c8a-b653-48177d4a207d-bluemix.cloudantnosqldb.appdomain.cloud/" ,
-    IAM_API_KEY: "ySahisbUPABXdqzJc77nAytbcIFLdzMAiLeGuTPRWw5l",
-    COUCH_USERNAME: "72144af7-975a-4c8a-b653-48177d4a207d-bluemix",
-}
+
+const params = require("C:\\localkeys\\IBM_Cloud_Key.json");
 
 
 function get_dealerships(params) {

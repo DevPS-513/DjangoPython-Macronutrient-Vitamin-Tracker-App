@@ -56,8 +56,7 @@ class CarDealer:
         self.zip=zip
 
     def __str__(self):
-        return "Dealer name: " + self.full_name
-    
+        return "Dealer name: " + self.full_name    
 
     def get_fields(self):
         return vars(self)

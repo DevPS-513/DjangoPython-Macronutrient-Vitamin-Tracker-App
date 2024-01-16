@@ -7,7 +7,6 @@ from .models import CarDealer,DealerReview
 # im using the index-promise.js from previous
 # lab since the functions option does not exist anymore in IBM cloud
 #
-
 #url="http://localhost:5000"
 # Create a `get_request` to make HTTP GET requests
 # e.g., response = requests.get(url, params=params, headers={'Content-Type': 'application/json'},
@@ -23,9 +22,6 @@ def get_request(url,**kwargs):
     except:
         print("could not connect")
 
-    status_code=response.status_code
-    print(f'With status {status_code}')
-    print('received as text'+response.text)
     return response.text
 
 
@@ -53,7 +49,6 @@ def get_dealers_from_cf(url, **kwargs):
         return []
 
     if json_result:
-        #dealers = json_result["rows"]
         for dealer in dealers:
             dealer_doc=dealer["doc"]
 
@@ -61,6 +56,7 @@ def get_dealers_from_cf(url, **kwargs):
                                    id=dealer_doc["id"], lat=dealer_doc["lat"], long=dealer_doc["long"],
                                    short_name=dealer_doc["short_name"],
                                    st=dealer_doc["st"], zip=dealer_doc["zip"])
+            
             results.append(dealer_obj)
     return results
 
@@ -80,9 +76,6 @@ def get_dealer_reviews_from_cf(url, **kwargs):
     if json_result:
         #dealers = json_result["rows"]
         for dealer in dealers:
-            print("\n")
-            print(dealer)
-            print("\n")
 
             dealer_obj=DealerReview()
 
@@ -92,7 +85,6 @@ def get_dealer_reviews_from_cf(url, **kwargs):
                     setattr(dealer_obj,var,dealer["doc"][var])
                 except:
                     setattr(dealer_obj,var,None)
-
        
             results.append(dealer_obj)
     return results
