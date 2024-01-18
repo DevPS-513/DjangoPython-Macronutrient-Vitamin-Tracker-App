@@ -3,22 +3,32 @@
 {%block title %} Review List {% endblock %}
 
 {% load static %}
-
+{% load getattribute %}
 {% block content %}
-<form method="post">
-    {% csrf_token %}
-    <p> Review List <p> <br></br>
-    <label for="id">Enter Dealership ID:</label><br>
-    <input type="text" id="id" name="id"><br>
-    <input type="submit" value="Submit">
-</form>
-<ul>
-    {% for review in reviews %}
-        <li>
-        {% for field_name, field_value in review.get_fields.items %}
-            {{ field_name }}: {{ field_value }}<br>
+<table class="table" id="table" data-filter-control="true">
+    <thead>
+        <tr>
+            {% for fieldname in fieldnames %}
+            <th data-field="{{fieldname}}">{{fieldname}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for review in reviews %}
+            <tr>
+                {% for fieldname in fieldnames %}
+                <td>{{ review|getattribute:fieldname }}</td>   
+                {% endfor %}      
+            </tr>
         {% endfor %}
-        </li>
-    {% endfor %}
-    </ul>
+    </tbody>
+</table>
+<script>
+    $(function() {
+        $('#table').bootstrapTable({
+            filterControl: true,  // enable filter control
+        })
+    })
+</script>
+
 {% endblock %}

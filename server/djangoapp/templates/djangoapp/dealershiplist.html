@@ -5,11 +5,16 @@
 {% load static %}
 {% load getattribute %}
 {% block content %}
-<table class="table" id="table">
+<table class="table" id="table" data-filter-control="true">
     <thead>
         <tr>
             {% for fieldname in fieldnames %}
+            {% if fieldname == "st" %}
+            <th data-field="st" data-filter-control="select">{{fieldname}}</th>
+
+            {% else %}
             <th data-field="{{fieldname}}">{{fieldname}}</th>
+            {% endif %}
             {% endfor %}
         </tr>
     </thead>
@@ -28,4 +33,12 @@
         {% endfor %}
     </tbody>
 </table>
+<script>
+    $(function() {
+        $('#table').bootstrapTable({
+            filterControl: true,  // enable filter control
+        })
+    })
+</script>
+
 {% endblock %}

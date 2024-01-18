@@ -121,7 +121,8 @@ function getDbs(cloudant) {
             if (filterProperty && filterValue ) {
 
                 let filteredResult = result.result.filter(dealership=> dealership.doc[filterProperty] == filterValue);
-                    res.status(200).send(filteredResult);
+                console.log(filteredResult)  
+                res.status(200).send(filteredResult);
             } else {
                 res.status(200).send(result);
             }

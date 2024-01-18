@@ -29,11 +29,12 @@ def get_request(url,**kwargs):
     try:
         
         if( apikey ):
-            response=requests.post(url, headers=headers,data=data, auth=HTTPBasicAuth('apikey', apikey))
+            response=requests.get(url, headers=headers,data=data, auth=HTTPBasicAuth('apikey', apikey))
         else:
             response = requests.get(url, headers={'Content-Type': 'application/json'},
                                     params=kwargs)
             
+        print(response.text)
         return response.text
 
     except Exception as e:
@@ -86,6 +87,11 @@ def get_dealers_from_cf(url, **kwargs):
             
             results.append(dealer_obj)
 
+
+
+    # Format the JSON result
+    formatted_json_result = json.dumps(json_result, indent=4)
+    print(formatted_json_result) 
     
     return results
 
@@ -93,6 +99,9 @@ def get_dealer_reviews_from_cf(url, **kwargs):
 
     results=[]
     json_result=json.loads(get_request(url,**kwargs))
+
+    print("json result from getting all reviews")
+    print(json_result)
 
     if isinstance(json_result,dict) and 'result' in json_result:
         dealers=json_result['result']
@@ -124,6 +133,13 @@ def get_dealer_reviews_from_cf(url, **kwargs):
 
        
             results.append(dealer_obj)
+
+
+    
+
+        # Format the JSON result
+        formatted_json_result = json.dumps(json_result, indent=4)
+        print(formatted_json_result)  
     return results
 
 

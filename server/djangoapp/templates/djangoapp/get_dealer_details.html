@@ -14,7 +14,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for fieldname in dealer.get_fields %}
+            {% for fieldname in dealer.get_frontend_fieldnames %}
                 <tr>
                     <td>{{ fieldname }}</td>
                     <td>{{ dealer|getattribute:fieldname }}</td>
@@ -22,4 +22,25 @@
             {% endfor %}
         </tbody>
     </table>
+
+    {% for review in reviews %}
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Field Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for fieldname in review.get_fields %}
+                <tr>
+                    <td>{{ fieldname }}</td>
+                    <td>{{ review|getattribute:fieldname }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% endfor %}
 {% endblock %}

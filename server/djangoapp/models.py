@@ -51,7 +51,8 @@ class CarDealer:
                  long=None,
                  short_name=None,
                  st=None,
-                 zip=None):
+                 zip=None,
+                 state=None):
         self.id=id
         self.full_name=full_name
         self.city=city
@@ -61,7 +62,8 @@ class CarDealer:
         self.short_name=short_name
         self.st=st
         self.zip=zip
-        self.important_fields_names=['id','full_name','city','address','zip','state']
+        self.state=state
+        self.important_fields_names=['id','full_name','city','address','zip','st']
 
 
 
@@ -99,6 +101,8 @@ class DealerReview:
         self.car_year=car_year 
         self.sentiment=sentiment
         self.id=id 
+        self.important_fields_names=['id','name','dealership','purchase','review','sentiment','purchase_date','car_make']
+
 
     def __str__(self):
         return f"Reviewer name: {self.name}"
@@ -106,6 +110,10 @@ class DealerReview:
 
     def get_fields(self):
         return vars(self)
+    
+    def get_frontend_fieldnames(self):
+        return {k: v for k,v in vars(self).items() if k in self.important_fields_names}
+
 
 
 
