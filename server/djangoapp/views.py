@@ -5,10 +5,10 @@ load_dotenv()
 
 
 API_CREDS = {
-  'dealership_url': os.getenv('DEALERSHIP_URL'),
-  'review_url': os.getenv('REVIEWS_URL'),
+  'dealership_url': os.getenv('DEALERSHIP_URL',''),
+  'review_url': os.getenv('REVIEWS_URL',''),
 
-  'dealership_key': os.getenv('DEALERSHIP_API_KEY')
+  'dealership_key': os.getenv('DEALERSHIP_API_KEY',''),
 
 }
 
@@ -30,20 +30,30 @@ import logging
 import json
 import requests
 
-from .forms import RegisterForm
+from .forms import RegisterForm,ReviewForm
 from .models import CarDealer,CarMake,CarModel,DealerReview
 from .restapis import get_request,get_dealers_from_cf,get_dealer_reviews_from_cf
 
 import nltk
 nltk.download('vader_lexicon')
-from nltk.sentiment import SentimentIntensityAnalyzer
-sia = SentimentIntensityAnalyzer()
 
-with open(r"C:\localkeys\IBM_Watson_Credential.txt", 'r') as f:
-    watson_api_keys = json.load(f)
 
-# Get an instance of a logger
-logger = logging.getLogger(__name__)
+def get_emoticon_from_sentiment(sentiment_dict):
+    # Get compound score
+    compound_score = sentiment_dict.get('compound', 0)
+
+    # Assign emoticon based on compound score
+    if compound_score >= 0.3:
+        return "😊"  # Positive sentiment
+    elif compound_score <= -0.3:
+        return "😞"  # Negative sentiment
+    else:
+        return "😐"  # Neutral sentiment
+
+
+
+
+
 
 
 # Create your views here.
@@ -82,7 +92,7 @@ def register(request):
         if form.is_valid():
             user= form.save()
             login(request,user)
-            return redirect('djangoapp/home')
+            return redirect('djangoapp:home')
     else:
         form = RegisterForm()
 
@@ -122,47 +132,75 @@ def get_dealerships(request):
 # Update the `get_dealerships` view to render the index page with a list of dealerships
 def get_dealer_details(request):
 
-
+    from nltk.sentiment import SentimentIntensityAnalyzer
+    sia = SentimentIntensityAnalyzer()
     
     dealership_url=API_CREDS['dealership_url']
     reviews_url=API_CREDS['review_url']
     dealership_key=API_CREDS['dealership_key']
 
+    context = {'dealership': {}}
+    dealership={}
+    newdealership=CarDealer()
+    reviews={}
+    review_list=[]
 
-    context = {}
-        #dealerships=get_request("http://127.0.0.1:5000/api/dealership",id=1)    
-    dealer_reviews={}
+
     if request.method == "GET":
         id = request.GET.get('id')
-        dealerships = get_dealers_from_cf(dealership_url, id=id,apikey=dealership_key)
-        dealer_reviews=get_dealer_reviews_from_cf(reviews_url, id=id,apikey=dealership_key)
+        dealership_url=str(dealership_url)+r'/'+str(id)
+        reviews_url=str(reviews_url)
 
-        print()
-    else:
-        dealerships ={'not':'found'}
+        dealer_response=requests.get(url=str(dealership_url), auth=HTTPBasicAuth('apikey', str(dealership_key)))
+        rev_response=requests.get(url=str(reviews_url), auth=HTTPBasicAuth('apikey', str(dealership_key)))
 
-    if(len(dealerships)==1):
-        dealerships=list(dealerships)[0]
+        dealership=json.loads(dealer_response.text)
+        reviews=json.loads(rev_response.text)
 
-    context['dealer']=dealerships
-    context['reviews']=dealer_reviews
+        print("dealership['doc']",dealership['doc'])
 
-    # Get all reviews for this dealer
+        dealership=dealership['doc']
 
- 
+        
+
+        for review in reviews:
+            try:
+                if(int(review['doc']['id'])==int(id)):
+                    sentiment_dict=sia.polarity_scores(review['doc']['review'])
+                    review['doc']['sentiment']=sentiment_dict
+                    review['doc']['sentiment_emoticon']=get_emoticon_from_sentiment(sentiment_dict)
+
+
+                    review_list.append(review['doc'])
+            except Exception as e:
+                print(e)
+                
+      
+        for (key,value) in dealership.items():
+            try:
+                setattr(newdealership,key,value)
+            except:
+                print(" no value for ",key)
+
+    context['dealership']=newdealership.to_dict()
+    context['fieldnames']=newdealership.get_frontend_fieldnames()
+
+    context['reviews']=review_list
     return render(request, 'djangoapp/get_dealer_details.html', context)
 
 
 
 # Update the `get_dealerships` view to render the index page with a list of dealerships
 def get_reviews(request):
+    from nltk.sentiment import SentimentIntensityAnalyzer
+    sia = SentimentIntensityAnalyzer()
     reviews_url=API_CREDS['review_url']
     dealership_key=API_CREDS['dealership_key']
     context = {}
     reviews = []
         #dealerships=get_request("http://127.0.0.1:5000/api/dealership",id=1)
     if request.method == "GET" :
-        response=requests.get(reviews_url, auth=HTTPBasicAuth('apikey', dealership_key))
+        response=requests.get(url=str(reviews_url), auth=HTTPBasicAuth('apikey', str(dealership_key)))
         reviews=json.loads(response.text)
     
     newreviews=[]
@@ -171,7 +209,10 @@ def get_reviews(request):
         review_obj = DealerReview()
         for key,item in review['doc'].items():
             setattr(review_obj,key,item)
-            
+
+        setattr(review_obj,'sentiment',sia.polarity_scores(review_obj.review))
+        print(sia.polarity_scores(review_obj.review))
+
         newreviews.append(review_obj)
 
 
@@ -190,47 +231,65 @@ def get_reviews(request):
 
 def add_review(request):
     formdata = DealerReview()
-    emptyform = vars(formdata)
+    form_names = formdata.get_frontend_fieldnames()
+    response=requests.models.Response()
+    json_to_send='not sent'
 
-    print(request.POST)
+    dealership_url=API_CREDS['dealership_url']
+    reviews_url=API_CREDS['review_url']
+    dealership_key=API_CREDS['dealership_key']
+
+    dealerships = get_dealers_from_cf(dealership_url,apikey=dealership_key)
+
+    dealer_name_to_id_map={}
+
+    for dealer in dealerships:
+        dealer_name_to_id_map[dealer.full_name]=dealer.id
 
     if request.method == "POST":
-        id = request.POST.get('id')
-        print("id is ", id)
-        reviews = []
-        for var in emptyform.keys():
-            try:
-                print(var)
-                print( request.POST.get(var))
-                setattr(formdata, var, request.POST.get(var))
-            except Exception as e:
-                print("error")
-                setattr(formdata, var, "None")
+
+        post_data=request.POST.copy()
+        post_data['id']=dealer_name_to_id_map[post_data['dealership']]
+            
+        form=ReviewForm(post_data)
+
+        # Get the ID and car
+
+        if form.is_valid():
+            formdata=form.cleaned_data
+            data = {
+                "doc": {
+                    "name": str(formdata["name"]),
+                    "id": str(dealer_name_to_id_map[formdata['dealership']]),
+                    "dealership": str(formdata['dealership']),
+                    "review": str(formdata['content']),
+                    "purchase": str(formdata['purchasecheck']),
+                    "purchase_date": str(formdata['purchase_date']),
+                    "car_make": formdata['car'].make.name,
+                    "car_model": formdata['car'].type,
+                    "car_year": formdata['car'].year.year,
+                    # Add other fields here as needed
+                }
+            }
+
+
+            json_to_send=json.dumps(data)
+            headers = {'Content-Type': 'application/json'}
+
+
+            response=requests.post(url=str(reviews_url), headers=headers,data=json_to_send,auth=HTTPBasicAuth('apikey', str(dealership_key)))
 
 
 
-        formdata = vars(formdata)  # Update formdata with the saved data
-    else:
-        reviews = []
 
- 
-
-    return render(request, 'djangoapp/addreview.html', {"emptyform": emptyform, "formdata": formdata})
-
-
-
-def test_nlu(request):
-    context = {}
     
-    reply='Initialized_to_None'
+    cars = CarModel.objects.all()
+    return render(request, 'djangoapp/addreview.html', {"emptyform": form_names, 
+                                                        "formdata": json_to_send,
+                                                        "response": response.text,
+                                                        "cars":cars,
+                                                        "dealerships": dealerships})
 
-    if(request.method == 'GET'):
-
-
-        reply=sia.polarity_scores("I love you") 
-
-
-    return render(request, 'djangoapp/testnlu.html', {"watsonreply": reply})
 
 
 

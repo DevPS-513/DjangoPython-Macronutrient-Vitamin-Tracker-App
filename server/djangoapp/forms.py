@@ -2,6 +2,7 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
+from .models import CarModel
 
 class RegisterForm(UserCreationForm):
     email = forms.EmailField(required=True)
@@ -12,3 +13,17 @@ class RegisterForm(UserCreationForm):
         model=User
         fields=['username','email','first_name','last_name',
                 'password1','password2']
+        
+
+class ReviewForm(forms.Form):
+    name = forms.CharField(max_length=30,required=True)
+    id = forms.CharField(max_length=30,required=True)
+    content = forms.CharField(widget=forms.Textarea,required=True)
+    purchasecheck = forms.BooleanField(required=True)
+    purchase_date = forms.CharField(max_length=50,required=True)
+
+    car = forms.ModelChoiceField(queryset=CarModel.objects.all(), required=True)
+
+
+
+    dealership=forms.CharField(max_length=50,required=True)

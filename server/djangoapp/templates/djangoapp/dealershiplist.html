@@ -1,11 +1,11 @@
 {% extends 'djangoapp/base.html' %}
 
 {%block title %} Dealership List {% endblock %}
-
 {% load static %}
+
 {% load getattribute %}
 {% block content %}
-<table class="table" id="table" data-filter-control="true">
+<table class="table" id="table" data-filter-control="true",data-loading-text="">
     <thead>
         <tr>
             {% for fieldname in fieldnames %}
@@ -33,12 +33,15 @@
         {% endfor %}
     </tbody>
 </table>
+
+
 <script>
     $(function() {
         $('#table').bootstrapTable({
             filterControl: true,  // enable filter control
         })
     })
-</script>
+  </script>
+
 
 {% endblock %}

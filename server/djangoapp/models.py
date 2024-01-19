@@ -19,12 +19,14 @@ class CarMake(models.Model):
         return str(self.name)
 
 class CarModel(models.Model):
-    carmake=models.ForeignKey(CarMake,on_delete=models.CASCADE)
+    make=models.ForeignKey(CarMake,on_delete=models.CASCADE)
     dealerId=models.IntegerField()
+    name=models.CharField(max_length=200,default='civic')
+
     type=models.CharField(max_length=200)
     year=models.DateField()
     def __str__(self):
-        return str(self.carmake)
+        return str(self.make)
 
 
 
@@ -75,6 +77,9 @@ class CarDealer:
     
     def get_frontend_fieldnames(self):
         return {k: v for k,v in vars(self).items() if k in self.important_fields_names}
+    
+    def to_dict(self):
+        return vars(self)
 
 # <HINT> Create a plain Python class `DealerReview` to hold review data
 
@@ -94,14 +99,15 @@ class DealerReview:
         self.dealership=dealership
         self.name=name
         self.purchase=purchase
-        self.review=review 
         self.purchase_date=purchase_date
         self.car_make=car_make
         self.car_model=car_model
         self.car_year=car_year 
         self.sentiment=sentiment
         self.id=id 
-        self.important_fields_names=['id','name','dealership','purchase','review','sentiment','purchase_date','car_make']
+        self.review=review 
+
+        self.important_fields_names=['name','id','dealership','purchase_date','car_make','car_year','review']
 
 
     def __str__(self):
