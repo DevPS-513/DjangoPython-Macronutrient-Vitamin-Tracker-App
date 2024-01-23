@@ -8,7 +8,7 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-<h2> Enter review for a dealership below </h2>
+<h2> Enter review for a car dealership below </h2>
 <form method="post">
     {% csrf_token %}
     <style>
@@ -88,15 +88,13 @@
     <br>
 <input type="submit" value="Submit">
 </form>
-        <br>
-        <p> New Data to Add is </p>
-        {{ formdata.items }}
-        <br>
-        <p> response from server is </p>
-        {{ response }}
-    </ul>
 
-    {% else %}
+<h6>  Raw Data Sent to server: </h6>
+{{formdata}}
+
+<h6>  Response from NodeJS+Express server: </h6>
+{{response}}
+     {% else %}
     <p>You must be logged in to add a review.</p>
 {% endif %}
 

@@ -228,7 +228,7 @@ def get_reviews(request):
 
     return render(request, 'djangoapp/reviewlist.html', context)
 
-
+    
 def add_review(request):
     formdata = DealerReview()
     form_names = formdata.get_frontend_fieldnames()
@@ -245,6 +245,10 @@ def add_review(request):
 
     for dealer in dealerships:
         dealer_name_to_id_map[dealer.full_name]=dealer.id
+
+        
+
+
 
     if request.method == "POST":
 
@@ -289,6 +293,7 @@ def add_review(request):
                                                         "response": response.text,
                                                         "cars":cars,
                                                         "dealerships": dealerships})
+
 
 
 

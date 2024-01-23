@@ -28,6 +28,7 @@
 
 <!-- Bootstrap Table Filter Control -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.18.3/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css">
 
 <script type="text/javascript">$(document).ready(function() {
   $('.date-own').datepicker();
@@ -42,12 +43,6 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" id="home-link" href={% url 'djangoapp:home' %}>Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href={% url 'djangoapp:home' %}>Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href={% url 'djangoapp:about' %}>About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href={% url 'djangoapp:contact' %}>Contact</a>

@@ -1,35 +1,42 @@
-# Final Project Template
+# Abstract
 
-A final project template forked from the captstone coursera course,  all the high-level steps are listed below. 
-The project is then divided into several smaller labs that give the detailed instructions for each step. 
-You must complete all the labs to successfully complete the project.
+# Full Stack Final Project Website
 
-## Project Breakdown
+This website is a full stack project that utilizes Django and Node.js with Express. For the coursera course on Django Cloud Development
 
-**Prework: Sign up for IBM Cloud account and create a Watson Natural language Understanding service**
-1. Create an IBM cloud account if you don't have one already.
-2. Create an instance of the Natural Language Understanding (NLU) service.
+- **Django:** Used for rendering a list of car dealerships and associated user reviews.
+- **Node.js and Express:** Although the REST API for the course's IBM Cloud has been decommissioned,The raw JSON list of dealerships and users is still accessible from the IBM Cloud database. This data is used in the `./server/djangobackend/node_Dealership_example_server` A Node and Express server
+  was made to enable the rest of the website.
 
-**Fork the project Github repository with a project then build and deploy the template project**
-1. Fork the repository in your account
-2. Clone the repository in the theia lab environment
-3. Create static pages to finish the user stories
-4. Deploy the application on IBM Cloud
+# Project Concepts
 
-**Add user management to the application**
-1. Implement user management using the Django user authentication system.
-2. Set up continuous integration and delivery
+-User Authentication
+-Working with Django Forms,models, and ORM databases
+-Frontend Bootstrap styling and dynamic interaction like table filters
+-REST API calls to a database ( although the data could have been stored all in Django)
 
-**Implement backend services**
-1. Create cloud functions to manage dealers and reviews
-2. Create Django models and views to manage car model and car make
-3. Create Django proxy services and views to integrate dealers, reviews, and cars together
- 
-**Add dynamic pages with Django templates**
-1. Create a page that shows all the dealers
-2. Create a page that show reviews for a selected dealer
-3. Create a page that let's the end user add a review for a selected dealer
 
-**Containerize your application**
-1. Add deployment artifacts to your application
-2. Deploy your application
+# Dealerships Data Table
+
+Basic Data Table with criteria filter
+
+![DealerShip  Table](./assets/J23_dealerships_table.png)
+
+filtered by state
+
+![Table Filter](./assets/J23_Table_Filter.png)
+
+User Sign up functionality
+
+![Signup Page](./assets/J23_SignupPage.png)
+
+User logged in 
+
+![Loggedin](./assets/J23_Person1loggedin.png)
+
+Form Submission sent to database
+
+![Form Submission](./assets/J23_Post_Review.png)
+
+
+
