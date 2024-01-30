@@ -5,21 +5,52 @@
 {% load static %}
 {% load getattribute %}
 {% load crispy_forms_tags %} {% block content %}
+{% load widget_tweaks %}
 <form method="post">
     {% csrf_token %}
-    <div class="row">
-        {% for field in formdata %}
-            <!-- if its gender and age, write two labels at once-->
-            {% if field.label == "Gender" or field.label == "Age" %}
-            <div class="col-md-2">
-                <label for="{{ field.id_for_label }}">{{ field.label }}</label>
-            </div>
-            <div class="col-md-10">
-                {{ field }}
-            </div>
-        {% endfor %}
-    </div>
-    <button type="submit" class="btn btn-success">SignUp</button>
+
+        <div class="container">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>              
+                <td><label for="{{ formdata.gender.id_for_label }}">{{ formdata.gender.label }}:</label></td>
+                <td>{{ formdata.gender }}</td>  
+
+                <td><label for="{{ formdata.age.id_for_label }}">{{ formdata.age.label }}:</label></td>
+                <td>{{ formdata.age }}</td>
+            </tr>
+
+            <tr>              
+                <td><label for="{{ formdata.height_in.id_for_label }}">{{ formdata.height_in.label }}:</label></td>
+                <td>{{ formdata.height_in }}</td>  
+
+                <td><label for="{{ formdata.weight_lbs.id_for_label }}">{{ formdata.weight_lbs.label }}:</label></td>
+                <td>{{ formdata.weight_lbs }}</td>
+            </tr>
+        </div>
+
+        <tr>              
+            <td colspan="1"><label for="{{ formdata.bf.id_for_label }}">{{ formdata.bf.label }}:</label> </td>
+            <td >{{ formdata.bf }}  </td>
+            <td colspan="2">(Optional) </td>
+        </tr>
+
+        <tr>              
+            <td colspan="1"><label for="{{ formdata.activity_level.id_for_label }}">{{ formdata.activity_level.label }}:</label> </td>
+            <td colspan="3">{{ formdata.activity_level }}  </td>
+        </tr>
+
+    </table>
+
+</div>
+      
+    <button type="submit" class="btn btn-success">Calculate</button>
 </form>
 
 {% endblock %}

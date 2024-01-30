@@ -38,11 +38,16 @@ class Person(models.Model):
     GENDER_CHOICES = [('M', 'Male'),('F', 'Female'), ('O', 'Other')]
     ACTIVITY_LEVELS = [\
     ('1.2',"1.2x Sedentary(office job)"),
-    ('1.375',"1.4x Lightly active(light sport 1-3 times/week)"),\
-    ('1.55',"1.6x Moderately active(3-5 days/week)"),\
-    ('1.725',"1.7x Very active(hard exercise 6-7 days/week)"),\
-    ('1.9',"1.9x Extremely active(hard excercise and physical job)")\
-]
+    ('1.375',"1.4x Active(1-3 times/week)"),\
+    ('1.55',"1.6x  Athlete(3-5 days/week)"),\
+    ('1.725',"1.7x Beast(6-7 days/week)"),\
+    ('1.9',"1.9x Champion(7/week all-day)")\
+    ]
+
+    AGES=[]
+
+    for i in range(0,130):
+        AGES.append((str(i),str(i)))
     
     file_path=os.path.join(settings.BASE_DIR,'static\\data\\height_list_in_to_ft_in.txt')
     print(file_path)
@@ -58,7 +63,7 @@ class Person(models.Model):
   
 
     gender = models.CharField(max_length=1,choices=GENDER_CHOICES,default="male")
-    age = models.FloatField(default=None)
+    age = models.CharField(max_length=3,choices=AGES)
     weight_lbs = models.FloatField(default=None)
     height_in = models.CharField(max_length=100,choices=HEIGHTS)
     activity_level = models.CharField(max_length=8, choices=ACTIVITY_LEVELS, default='1.2')    
