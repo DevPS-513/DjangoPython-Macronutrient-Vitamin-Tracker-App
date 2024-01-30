@@ -1,0 +1,25 @@
+{% extends 'djangoapp/base.html' %}
+
+{%block title %} Macros {% endblock %}
+
+{% load static %}
+{% load getattribute %}
+{% load crispy_forms_tags %} {% block content %}
+<form method="post">
+    {% csrf_token %}
+    <div class="row">
+        {% for field in formdata %}
+            <!-- if its gender and age, write two labels at once-->
+            {% if field.label == "Gender" or field.label == "Age" %}
+            <div class="col-md-2">
+                <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+            </div>
+            <div class="col-md-10">
+                {{ field }}
+            </div>
+        {% endfor %}
+    </div>
+    <button type="submit" class="btn btn-success">SignUp</button>
+</form>
+
+{% endblock %}
