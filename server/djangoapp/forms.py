@@ -18,7 +18,7 @@ class RegisterForm(UserCreationForm):
 class PersonForm(forms.ModelForm):
     class Meta:
         model =  Person
-        fields = ['gender','age','weight_lbs','height_in','activity_level','bf']
+        fields = ['gender','age','weight_lbs','height_ft','height_in','activity_level','bf']
         widgets = {
-            'weight_lbs': forms.NumberInput(attrs={'class': 'w-25'}),
+            'weight_lbs': forms.NumberInput(attrs={'style': 'height: 30px;'}),
         }

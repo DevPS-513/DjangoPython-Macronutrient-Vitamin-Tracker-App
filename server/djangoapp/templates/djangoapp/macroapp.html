@@ -27,18 +27,17 @@
             </tr>
 
             <tr>              
-                <td><label for="{{ formdata.height_in.id_for_label }}">{{ formdata.height_in.label }}:</label></td>
-                <td>{{ formdata.height_in }}</td>  
+                <td><label for="{{ formdata.height_ft.id_for_label }}">{{ formdata.height_ft.label }}:</label></td><td>{{ formdata.height_ft }}</td>
+                <td><label for="{{ formdata.height_in.id_for_label }}">{{ formdata.height_in.label }}:</label></td><td>{{ formdata.height_in }}</td>
 
-                <td><label for="{{ formdata.weight_lbs.id_for_label }}">{{ formdata.weight_lbs.label }}:</label></td>
-                <td>{{ formdata.weight_lbs }}</td>
             </tr>
         </div>
 
         <tr>              
-            <td colspan="1"><label for="{{ formdata.bf.id_for_label }}">{{ formdata.bf.label }}:</label> </td>
+            <td ><label for="{{ formdata.bf.verbose }}">{{ formdata.bf.label }}:</label> </td>
             <td >{{ formdata.bf }}  </td>
-            <td colspan="2">(Optional) </td>
+            <td ><label for="{{ formdata.weight_lbs.id_for_label }}">{{ formdata.weight_lbs.label }}:</label> </td>
+            <td >{{ formdata.weight_lbs }}  </td>
         </tr>
 
         <tr>              
@@ -48,9 +47,11 @@
 
     </table>
 
-</div>
-      
+</div>      
     <button type="submit" class="btn btn-success">Calculate</button>
 </form>
+
+<br>
+{{person}}
 
 {% endblock %}

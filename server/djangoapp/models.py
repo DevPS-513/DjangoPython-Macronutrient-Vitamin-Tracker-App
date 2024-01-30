@@ -10,10 +10,10 @@ class Person(models.Model):
     GENDER_CHOICES = [('M', 'Male'),('F', 'Female'), ('O', 'Other')]
     ACTIVITY_LEVELS = [\
     ('1.2',"1.2x Sedentary(office job)"),
-    ('1.375',"1.4x Active(1-3 times/week)"),\
-    ('1.55',"1.6x  Athlete(3-5 days/week)"),\
+    ('1.375',"1.4x Active(1-3 days/week)"),\
+    ('1.55',"1.6x Athlete(3-5 days/week)"),\
     ('1.725',"1.7x Beast(6-7 days/week)"),\
-    ('1.9',"1.9x Champion(7/week all-day)")\
+    ('1.9',"1.9x Champion(7 days/week)")\
     ]
 
     AGES=[]
@@ -23,23 +23,17 @@ class Person(models.Model):
     
     file_path=os.path.join(settings.BASE_DIR,'static\\data\\height_list_in_to_ft_in.txt')
     print(file_path)
-    HEIGHTS = []
 
-    height_df=pd.read_csv(file_path,header=None,index_col=None)
-
-    for i in height_df.index.values:
-        HEIGHTS.append((height_df.iloc[i,0],height_df.iloc[i,1]))
-        if(i==0):
-            print("looks like")
-            print(HEIGHTS)
   
 
     gender = models.CharField(max_length=1,choices=GENDER_CHOICES,default="male")
-    age = models.CharField(max_length=3,choices=AGES)
-    weight_lbs = models.FloatField(default=None)
-    height_in = models.CharField(max_length=100,choices=HEIGHTS)
+    age = models.CharField(max_length=3,choices=AGES,default='30')
+    weight_lbs = models.FloatField(default=160)
+    height_ft = models.FloatField(max_length=100,default=5)
+    height_in = models.FloatField(max_length=100,default=8)
+
     activity_level = models.CharField(max_length=8, choices=ACTIVITY_LEVELS, default='1.2')    
-    bf = models.FloatField(default=-1)
+    bf = models.FloatField(default=20)
 
     # outputs
     BMI = models.FloatField(default=-1)
@@ -47,24 +41,24 @@ class Person(models.Model):
 
 
     def update(self):
-        weight_Kg = self.weight_lbs / 2.2046
-        height_in_meters = (self.height_in / 2.54) / 100
+        weight_Kg = float(self.weight_lbs )/ 2.2046
+        height_in_meters = ((12*float(self.height_ft)+float(self.height_in) )/ 2.54) / 100
 
         self.BMI = weight_Kg / (height_in_meters * height_in_meters)
 
-        if self.gender == "M":
+        if self.gender == "male":
             weight_const = 4.536
             dc_offset = 5
             height_const = 15.88
             age_constant = -5
 
-        elif self.gender == "F":
+        elif self.gender == "female":
             dc_offset = -161
             weight_const = 4.536
             height_const = 15.88
             age_constant = -5
 
-        elif self.gender == "O":
+        elif self.gender == "other":
             dc_offset = (-161+5)/2
             weight_const =4.536
             height_const = 15.88
@@ -73,9 +67,9 @@ class Person(models.Model):
 
         self.BMR = (
             dc_offset
-            + weight_const * self.weight_lbs
-            + height_const * self.height_in
-            + age_constant * self.age
+            + weight_const * float(self.weight_lbs)
+            + height_const * float(self.height_in)
+            + age_constant * float(self.age)
         )
 
     def __str__(self):
