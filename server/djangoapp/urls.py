@@ -16,11 +16,14 @@ urlpatterns = [
     path("contact/", views.contact, name="contact"),
     # path for registration
     path("register/", views.register, name="register"),
+
     # path for login
     # path('login/',views.login,name='sign_up'),
     # path for logout
     path("logout/", views.logout_view, name="logout"),
     path(route="macroapp/", view=views.macroapp, name="macroapp"),
+    path('food_search/', views.food_search, name='food_search'),
+
     # path for dealer reviews view
     # path for add a review view
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

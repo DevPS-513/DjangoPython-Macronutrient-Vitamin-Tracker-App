@@ -57,7 +57,13 @@
         "median": 1.25,
         "amount": 1.18
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 33.9,
+      "unitname": "g",
+      "total-nutrient-weight-g": 186.2,
+      "kcal": 229.2
+    }
   },
   {
     "description": "Tomatoes, grape, raw",
@@ -117,7 +123,13 @@
         "median": 0.81,
         "amount": 0.83
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 49.7,
+      "unitname": "g",
+      "total-nutrient-weight-g": 102.6,
+      "kcal": 27.0
+    }
   },
   {
     "description": "Beans, snap, green, canned, regular pack, drained solids",
@@ -163,7 +175,13 @@
         "median": 0.17,
         "amount": 0.17
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 129.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 103.2,
+      "kcal": 20.8
+    }
   },
   {
     "description": "Frankfurter, beef, unheated",
@@ -209,7 +227,13 @@
         "median": 1.89,
         "amount": 1.87
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 48.6,
+      "unitname": "g",
+      "total-nutrient-weight-g": 186.7,
+      "kcal": 313.5
+    }
   },
   {
     "description": "Nuts, almonds, dry roasted, with salt added",
@@ -269,7 +293,13 @@
         "median": 3.9,
         "amount": 3.94
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 135.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 300.1,
+      "kcal": 619.5
+    }
   },
   {
     "description": "Kale, raw",
@@ -329,7 +359,13 @@
         "median": 0.49,
         "amount": 0.47
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 20.6,
+      "unitname": "g",
+      "total-nutrient-weight-g": 107.0,
+      "kcal": 35.2
+    }
   },
   {
     "description": "Egg, whole, raw, frozen, pasteurized",
@@ -375,7 +411,13 @@
         "median": 1.98,
         "amount": 1.97
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 28.4,
+      "unitname": "g",
+      "total-nutrient-weight-g": 103.0,
+      "kcal": 149.9
+    }
   },
   {
     "description": "Egg, white, raw, frozen, pasteurized",
@@ -421,7 +463,13 @@
         "median": 1.62,
         "amount": 1.61
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 28.4,
+      "unitname": "g",
+      "total-nutrient-weight-g": 101.9,
+      "kcal": 48.0
+    }
   },
   {
     "description": "Egg, white, dried",
@@ -467,7 +515,13 @@
         "median": 12.8,
         "amount": 12.8
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 7.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 115.3,
+      "kcal": 375.6
+    }
   },
   {
     "description": "Onion rings, breaded, par fried, frozen, prepared, heated in oven",
@@ -527,7 +581,13 @@
         "median": 0.7,
         "amount": 0.74
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 20.2,
+      "unitname": "g",
+      "total-nutrient-weight-g": 219.6,
+      "kcal": 288.6
+    }
   },
   {
     "description": "Pickles, cucumber, dill or kosher dill",
@@ -587,7 +647,13 @@
         "median": 0.08,
         "amount": 0.08
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 40.4,
+      "unitname": "g",
+      "total-nutrient-weight-g": 104.7,
+      "kcal": 12.0
+    }
   },
   {
     "description": "Cheese, parmesan, grated",
@@ -633,7 +699,13 @@
         "median": 5.34,
         "amount": 4.63
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 7.6,
+      "unitname": "g",
+      "total-nutrient-weight-g": 182.6,
+      "kcal": 420.8
+    }
   },
   {
     "description": "Cheese, pasteurized process, American, vitamin D fortified",
@@ -679,7 +751,13 @@
         "median": 2.81,
         "amount": 2.82
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 20.6,
+      "unitname": "g",
+      "total-nutrient-weight-g": 196.9,
+      "kcal": 365.8
+    }
   },
   {
     "description": "Grapefruit juice, white, canned or bottled, unsweetened",
@@ -739,7 +817,13 @@
         "median": 0.09,
         "amount": 0.09
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 257.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 116.0,
+      "kcal": 37.3
+    }
   },
   {
     "description": "Peaches, yellow, raw",
@@ -795,7 +879,13 @@
         "median": 0.15,
         "amount": 0.15
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 147.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 130.7,
+      "kcal": 41.8
+    }
   },
   {
     "description": "Seeds, sunflower seed kernels, dry roasted, with salt added",
@@ -855,7 +945,13 @@
         "median": 3.93,
         "amount": 3.96
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 127.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 309.2,
+      "kcal": 611.9
+    }
   },
   {
     "description": "Bread, white, commercially prepared",
@@ -915,7 +1011,13 @@
         "median": 1.48,
         "amount": 1.51
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 27.3,
+      "unitname": "g",
+      "total-nutrient-weight-g": 209.7,
+      "kcal": 270.0
+    }
   },
   {
     "description": "Kale, frozen, cooked, boiled, drained, without salt",
@@ -961,7 +1063,13 @@
         "median": 0.5,
         "amount": 0.47
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 118.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 103.1,
+      "kcal": 36.0
+    }
   },
   {
     "description": "Mustard, prepared, yellow",
@@ -1021,7 +1129,13 @@
         "median": 0.67,
         "amount": 0.68
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 249.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 133.2,
+      "kcal": 60.9
+    }
   },
   {
     "description": "Kiwifruit, green, raw",
@@ -1081,7 +1195,13 @@
         "median": 1.01,
         "amount": 1.06
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 137.5,
+      "kcal": 57.8
+    }
   },
   {
     "description": "Nectarines, raw",
@@ -1137,7 +1257,13 @@
         "median": 0.18,
         "amount": 0.17
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 129.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 129.5,
+      "kcal": 39.0
+    }
   },
   {
     "description": "Cheese, cheddar",
@@ -1183,7 +1309,13 @@
         "median": 3.62,
         "amount": 3.65
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 17.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 195.8,
+      "kcal": 408.3
+    }
   },
   {
     "description": "Cheese, cottage, lowfat, 2% milkfat",
@@ -1229,7 +1361,13 @@
         "median": 1.81,
         "amount": 1.73
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 220.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 116.4,
+      "kcal": 84.1
+    }
   },
   {
     "description": "Cheese, mozzarella, low moisture, part-skim",
@@ -1275,7 +1413,13 @@
         "median": 3.77,
         "amount": 3.71
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 86.2,
+      "unitname": "g",
+      "total-nutrient-weight-g": 164.4,
+      "kcal": 297.2
+    }
   },
   {
     "description": "Egg, whole, dried",
@@ -1321,7 +1465,13 @@
         "median": 7.63,
         "amount": 7.69
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 85.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 111.4,
+      "kcal": 575.5
+    }
   },
   {
     "description": "Egg, yolk, raw, frozen, pasteurized",
@@ -1367,7 +1517,13 @@
         "median": 2.49,
         "amount": 2.49
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 28.4,
+      "unitname": "g",
+      "total-nutrient-weight-g": 104.3,
+      "kcal": 296.2
+    }
   },
   {
     "description": "Egg, yolk, dried",
@@ -1413,7 +1569,13 @@
         "median": 5.47,
         "amount": 5.48
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 4.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 109.4,
+      "kcal": 654.4
+    }
   },
   {
     "description": "Yogurt, Greek, plain, nonfat",
@@ -1459,7 +1621,13 @@
         "median": 1.62,
         "amount": 1.61
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 156.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 120.0,
+      "kcal": 61.1
+    }
   },
   {
     "description": "Yogurt, Greek, strawberry, nonfat",
@@ -1506,7 +1674,13 @@
         "median": 0.6,
         "amount": 0.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 150.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 136.4,
+      "kcal": 83.0
+    }
   },
   {
     "description": "Oil, coconut",
@@ -1552,7 +1726,13 @@
         "median": 0.0,
         "amount": 0.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 11.6,
+      "unitname": "g",
+      "total-nutrient-weight-g": 373.3,
+      "kcal": 832.4
+    }
   },
   {
     "description": "Chicken, broilers or fryers, drumstick, meat only, cooked, braised",
@@ -1598,7 +1778,13 @@
         "median": 3.86,
         "amount": 3.83
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 104.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 122.3,
+      "kcal": 155.9
+    }
   },
   {
     "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",
@@ -1644,7 +1830,13 @@
         "median": 5.13,
         "amount": 5.13
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 174.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 117.7,
+      "kcal": 166.1
+    }
   },
   {
     "description": "Sauce, pasta, spaghetti/marinara, ready-to-serve",
@@ -1704,7 +1896,13 @@
         "median": 0.23,
         "amount": 0.23
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 135.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 124.9,
+      "kcal": 44.7
+    }
   },
   {
     "description": "Ham, sliced, pre-packaged, deli meat (96%fat free, water added)",
@@ -1750,7 +1948,13 @@
         "median": 2.68,
         "amount": 2.67
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 13.5,
+      "unitname": "g",
+      "total-nutrient-weight-g": 114.4,
+      "kcal": 105.9
+    }
   },
   {
     "description": "Olives, green, Manzanilla, stuffed with pimiento",
@@ -1810,7 +2014,13 @@
         "median": 1.17,
         "amount": 1.15
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 3.2,
+      "unitname": "g",
+      "total-nutrient-weight-g": 146.8,
+      "kcal": 129.9
+    }
   },
   {
     "description": "Cookies, oatmeal, soft, with raisins",
@@ -1870,7 +2080,13 @@
         "median": 5.88,
         "amount": 5.79
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 27.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 318.3,
+      "kcal": 430.1
+    }
   },
   {
     "description": "Tomatoes, canned, red, ripe, diced",
@@ -1916,7 +2132,13 @@
         "median": 0.88,
         "amount": 0.84
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 245.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 106.5,
+      "kcal": 18.1
+    }
   },
   {
     "description": "Fish, haddock, raw",
@@ -1962,7 +2184,13 @@
         "median": 2.8,
         "amount": 2.61
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 176.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 106.0,
+      "kcal": 73.8
+    }
   },
   {
     "description": "Fish, pollock, raw",
@@ -2008,7 +2236,13 @@
         "median": 1.73,
         "amount": 1.97
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 177.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 117.8,
+      "kcal": 56.1
+    }
   },
   {
     "description": "Fish, tuna, light, canned in water, drained solids",
@@ -2054,7 +2288,13 @@
         "median": 3.03,
         "amount": 3.04
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 142.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 105.7,
+      "kcal": 89.9
+    }
   },
   {
     "description": "Restaurant, Chinese, fried rice, without meat",
@@ -2100,7 +2340,13 @@
         "median": 0.6,
         "amount": 0.61
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 133.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 110.1,
+      "kcal": 174.1
+    }
   },
   {
     "description": "Restaurant, Latino, tamale, pork",
@@ -2160,7 +2406,13 @@
         "median": 1.19,
         "amount": 1.18
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 142.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 165.1,
+      "kcal": 174.0
+    }
   },
   {
     "description": "Restaurant, Latino, pupusas con frijoles (pupusas, bean)",
@@ -2220,7 +2472,13 @@
         "median": 0.9,
         "amount": 0.9
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 126.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 197.3,
+      "kcal": 229.1
+    }
   },
   {
     "description": "Bread, whole-wheat, commercially prepared",
@@ -2280,7 +2538,13 @@
         "median": 1.93,
         "amount": 1.97
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 32.1,
+      "unitname": "g",
+      "total-nutrient-weight-g": 196.6,
+      "kcal": 253.7
+    }
   },
   {
     "description": "Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0\" fat, select, cooked, roasted",
@@ -2313,7 +2577,13 @@
         "median": 27.8,
         "amount": 27.7
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 462.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 119.3,
+      "kcal": 175.8
+    }
   },
   {
     "description": "Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8\" fat, choice, raw",
@@ -2346,7 +2616,13 @@
         "median": 22.8,
         "amount": 22.8
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 284.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 119.4,
+      "kcal": 154.9
+    }
   },
   {
     "description": "Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0\" fat, select, raw",
@@ -2379,7 +2655,13 @@
         "median": 2.26,
         "amount": 2.48
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 690.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 108.4,
+      "kcal": 122.2
+    }
   },
   {
     "description": "Beef, round, top round roast, boneless, separable lean only, trimmed to 0\" fat, select, raw",
@@ -2412,7 +2694,13 @@
         "median": 23.8,
         "amount": 23.7
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 788.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 108.1,
+      "kcal": 122.9
+    }
   },
   {
     "description": "Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8\" fat, select, raw",
@@ -2445,7 +2733,13 @@
         "median": 22.6,
         "amount": 22.7
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 525.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 115.2,
+      "kcal": 144.9
+    }
   },
   {
     "description": "Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8\" fat, choice, cooked, grilled",
@@ -2478,7 +2772,13 @@
         "median": 11.2,
         "amount": 11.4
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 360.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 133.4,
+      "kcal": 219.2
+    }
   },
   {
     "description": "Carrots, frozen, unprepared",
@@ -2534,7 +2834,13 @@
         "median": 0.14,
         "amount": 0.13
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 125.5,
+      "kcal": 36.8
+    }
   },
   {
     "description": "Cheese, dry white, queso seco",
@@ -2580,7 +2886,13 @@
         "median": 3.72,
         "amount": 3.84
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 97.3,
+      "unitname": "g",
+      "total-nutrient-weight-g": 199.0,
+      "kcal": 325.5
+    }
   },
   {
     "description": "Cheese, ricotta, whole milk",
@@ -2626,7 +2938,13 @@
         "median": 1.09,
         "amount": 1.22
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 64.6,
+      "unitname": "g",
+      "total-nutrient-weight-g": 140.9,
+      "kcal": 157.0
+    }
   },
   {
     "description": "Cheese, swiss",
@@ -2672,7 +2990,13 @@
         "median": 4.24,
         "amount": 4.23
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 21.9,
+      "unitname": "g",
+      "total-nutrient-weight-g": 191.2,
+      "kcal": 392.5
+    }
   },
   {
     "description": "Figs, dried, uncooked",
@@ -2728,7 +3052,13 @@
         "median": 0.51,
         "amount": 0.53
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 8.4,
+      "unitname": "g",
+      "total-nutrient-weight-g": 287.3,
+      "kcal": 248.8
+    }
   },
   {
     "description": "Lettuce, cos or romaine, raw",
@@ -2788,7 +3118,13 @@
         "median": 0.2,
         "amount": 0.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 581.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 110.5,
+      "kcal": 16.9
+    }
   },
   {
     "description": "Melons, cantaloupe, raw",
@@ -2844,7 +3180,13 @@
         "median": 0.13,
         "amount": 0.13
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 69.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 127.1,
+      "kcal": 33.8
+    }
   },
   {
     "description": "Oranges, raw, navels",
@@ -2904,7 +3246,13 @@
         "median": 0.15,
         "amount": 0.14
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 165.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 133.1,
+      "kcal": 46.9
+    }
   },
   {
     "description": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
@@ -2950,7 +3298,13 @@
         "median": 0.53,
         "amount": 0.53
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 246.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 117.3,
+      "kcal": 42.9
+    }
   },
   {
     "description": "Pears, raw, bartlett",
@@ -3010,7 +3364,13 @@
         "median": 0.06,
         "amount": 0.06
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 140.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 126.1,
+      "kcal": 56.9
+    }
   },
   {
     "description": "Restaurant, Chinese, sweet and sour pork",
@@ -3070,11 +3430,23 @@
         "median": 1.38,
         "amount": 1.42
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 611.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 214.4,
+      "kcal": 260.3
+    }
   },
   {
     "description": "Salt, table, iodized",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 6.1,
+      "unitname": "g",
+      "total-nutrient-weight-g": 138.2,
+      "kcal": NaN
+    }
   },
   {
     "description": "Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",
@@ -3120,7 +3492,13 @@
         "median": 0.54,
         "amount": 0.54
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 246.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 115.2,
+      "kcal": 34.2
+    }
   },
   {
     "description": "Sauce, salsa, ready-to-serve",
@@ -3180,7 +3558,13 @@
         "median": 1.8,
         "amount": 1.8
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 35.7,
+      "unitname": "g",
+      "total-nutrient-weight-g": 116.3,
+      "kcal": 29.1
+    }
   },
   {
     "description": "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",
@@ -3226,7 +3610,13 @@
         "median": 0.52,
         "amount": 0.53
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 245.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 119.6,
+      "kcal": 50.0
+    }
   },
   {
     "description": "Sausage, breakfast sausage, beef, pre-cooked, unprepared",
@@ -3272,7 +3662,13 @@
         "median": 2.12,
         "amount": 2.13
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 18.6,
+      "unitname": "g",
+      "total-nutrient-weight-g": 202.8,
+      "kcal": 327.7
+    }
   },
   {
     "description": "Sausage, Italian, pork, mild, cooked, pan-fried",
@@ -3318,7 +3714,13 @@
         "median": 2.89,
         "amount": 2.91
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 86.6,
+      "unitname": "g",
+      "total-nutrient-weight-g": 190.0,
+      "kcal": 322.3
+    }
   },
   {
     "description": "Sausage, pork, chorizo, link or ground, cooked, pan-fried",
@@ -3364,7 +3766,13 @@
         "median": 19.4,
         "amount": 19.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 186.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 188.1,
+      "kcal": 346.3
+    }
   },
   {
     "description": "Milk, whole, 3.25% milkfat, with added vitamin D",
@@ -3410,7 +3818,13 @@
         "median": 0.51,
         "amount": 0.51
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 249.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 122.8,
+      "kcal": 60.0
+    }
   },
   {
     "description": "Sausage, turkey, breakfast links, mild, raw",
@@ -3456,7 +3870,13 @@
         "median": 2.62,
         "amount": 2.67
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 450.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 149.6,
+      "kcal": 168.9
+    }
   },
   {
     "description": "Sugars, granulated",
@@ -3502,7 +3922,13 @@
         "median": 0.0,
         "amount": 0.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 4.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 299.6,
+      "kcal": 384.9
+    }
   },
   {
     "description": "Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles",
@@ -3548,7 +3974,13 @@
         "median": 4.31,
         "amount": 4.34
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 155.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 141.3,
+      "kcal": 220.2
+    }
   },
   {
     "description": "Ham, sliced, restaurant",
@@ -3594,7 +4026,13 @@
         "median": 19.5,
         "amount": 19.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 16.2,
+      "unitname": "g",
+      "total-nutrient-weight-g": 120.3,
+      "kcal": 121.1
+    }
   },
   {
     "description": "Cheese, American, restaurant",
@@ -3640,7 +4078,13 @@
         "median": 17.4,
         "amount": 17.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 16.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 195.2,
+      "kcal": 375.1
+    }
   },
   {
     "description": "Beans, Dry, Medium Red (0% moisture)",
@@ -3687,7 +4131,13 @@
         "median": 4.3,
         "amount": 4.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 68.9,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Red (0% moisture)",
@@ -3734,7 +4184,13 @@
         "median": 4.0,
         "amount": 4.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 68.6,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Flor de Mayo (0% moisture)",
@@ -3781,7 +4237,13 @@
         "median": 4.0,
         "amount": 4.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 70.7,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Brown (0% moisture)",
@@ -3828,7 +4290,13 @@
         "median": 4.1,
         "amount": 4.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 70.7,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Tan (0% moisture)",
@@ -3875,7 +4343,13 @@
         "median": 4.4,
         "amount": 4.4
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 71.2,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Light Tan (0% moisture)",
@@ -3922,7 +4396,13 @@
         "median": 4.3,
         "amount": 4.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 70.1,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Carioca (0% moisture)",
@@ -3969,7 +4449,13 @@
         "median": 4.4,
         "amount": 4.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 69.7,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Cranberry (0% moisture)",
@@ -4016,7 +4502,13 @@
         "median": 4.3,
         "amount": 4.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 68.6,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Light Red Kidney (0% moisture)",
@@ -4063,7 +4555,13 @@
         "median": 4.5,
         "amount": 4.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 69.7,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Pink (0% moisture)",
@@ -4110,7 +4608,13 @@
         "median": 4.1,
         "amount": 4.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 69.3,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Dark Red Kidney (0% moisture)",
@@ -4157,7 +4661,13 @@
         "median": 4.2,
         "amount": 4.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 70.8,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Navy (0% moisture)",
@@ -4204,7 +4714,13 @@
         "median": 4.3,
         "amount": 4.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 70.7,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Small White (0% moisture)",
@@ -4251,7 +4767,13 @@
         "median": 4.2,
         "amount": 4.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 70.4,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Small Red (0% moisture)",
@@ -4298,7 +4820,13 @@
         "median": 4.1,
         "amount": 4.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 69.2,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Black (0% moisture)",
@@ -4345,7 +4873,13 @@
         "median": 4.2,
         "amount": 4.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 69.3,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Pinto (0% moisture)",
@@ -4392,7 +4926,13 @@
         "median": 4.1,
         "amount": 4.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 70.1,
+      "kcal": NaN
+    }
   },
   {
     "description": "Beans, Dry, Great Northern (0% moisture)",
@@ -4439,7 +4979,13 @@
         "median": 4.3,
         "amount": 4.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 70.8,
+      "kcal": NaN
+    }
   },
   {
     "description": "Broccoli, raw",
@@ -4499,7 +5045,13 @@
         "median": 0.41,
         "amount": 0.41
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 76.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 115.0,
+      "kcal": 31.3
+    }
   },
   {
     "description": "Ketchup, restaurant",
@@ -4545,7 +5097,13 @@
         "median": 1.06,
         "amount": 1.11
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 145.0,
+      "kcal": 116.8
+    }
   },
   {
     "description": "Eggs, Grade A, Large, egg white",
@@ -4591,7 +5149,13 @@
         "median": 1.7,
         "amount": 1.71
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 34.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 114.3,
+      "kcal": 55.1
+    }
   },
   {
     "description": "Eggs, Grade A, Large, egg yolk",
@@ -4637,23 +5201,53 @@
         "median": 2.58,
         "amount": 2.59
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 17.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 118.2,
+      "kcal": 334.3
+    }
   },
   {
     "description": "Oil, canola",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 90.9,
+      "unitname": "g",
+      "total-nutrient-weight-g": 309.3,
+      "kcal": NaN
+    }
   },
   {
     "description": "Oil, corn",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 91.3,
+      "unitname": "g",
+      "total-nutrient-weight-g": 335.9,
+      "kcal": NaN
+    }
   },
   {
     "description": "Oil, soybean",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 91.3,
+      "unitname": "g",
+      "total-nutrient-weight-g": 341.7,
+      "kcal": NaN
+    }
   },
   {
     "description": "Oil, olive, extra virgin",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 90.7,
+      "unitname": "g",
+      "total-nutrient-weight-g": 290.2,
+      "kcal": NaN
+    }
   },
   {
     "description": "Eggs, Grade A, Large, egg whole",
@@ -4713,7 +5307,13 @@
         "median": 0.0,
         "amount": 0.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 50.3,
+      "unitname": "g",
+      "total-nutrient-weight-g": 143.7,
+      "kcal": 147.7
+    }
   },
   {
     "description": "Pork, cured, bacon, cooked, restaurant",
@@ -4759,7 +5359,13 @@
         "median": 40.2,
         "amount": 40.9
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 6.3,
+      "unitname": "g",
+      "total-nutrient-weight-g": 225.7,
+      "kcal": 499.8
+    }
   },
   {
     "description": "Butter, stick, unsalted",
@@ -4778,7 +5384,13 @@
         "median": 81.2,
         "amount": 81.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 99.2,
+      "kcal": NaN
+    }
   },
   {
     "description": "Flour, wheat, all-purpose, enriched, bleached",
@@ -4824,7 +5436,13 @@
         "median": 1.81,
         "amount": 1.75
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 102.0,
+      "kcal": 365.8
+    }
   },
   {
     "description": "Flour, wheat, all-purpose, enriched, unbleached",
@@ -4870,7 +5488,13 @@
         "median": 2.14,
         "amount": 2.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 102.4,
+      "kcal": 358.3
+    }
   },
   {
     "description": "Flour, wheat, all-purpose, unenriched, unbleached",
@@ -4930,7 +5554,13 @@
         "median": 1.95,
         "amount": 1.92
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 105.2,
+      "kcal": 361.4
+    }
   },
   {
     "description": "Flour, whole wheat, unenriched",
@@ -4990,7 +5620,13 @@
         "median": 2.51,
         "amount": 2.41
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 114.0,
+      "kcal": 370.2
+    }
   },
   {
     "description": "Flour, bread, white, enriched, unbleached",
@@ -5036,7 +5672,13 @@
         "median": 2.28,
         "amount": 2.29
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 102.6,
+      "kcal": 363.1
+    }
   },
   {
     "description": "Flour, rice, white, unenriched",
@@ -5096,7 +5738,13 @@
         "median": 1.11,
         "amount": 1.11
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.8,
+      "kcal": 358.8
+    }
   },
   {
     "description": "Flour, corn, yellow, fine meal, enriched",
@@ -5156,7 +5804,13 @@
         "median": 6.6,
         "amount": 6.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 107.6,
+      "kcal": 363.6
+    }
   },
   {
     "description": "Butter, stick, salted",
@@ -5175,7 +5829,13 @@
         "median": 81.7,
         "amount": 82.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 298.9,
+      "kcal": NaN
+    }
   },
   {
     "description": "Onions, red, raw",
@@ -5222,7 +5882,13 @@
         "median": 0.1,
         "amount": 0.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 197.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 118.0,
+      "kcal": 44.2
+    }
   },
   {
     "description": "Onions, yellow, raw",
@@ -5269,7 +5935,13 @@
         "median": 0.0,
         "amount": 0.05
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 143.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 116.5,
+      "kcal": 38.1
+    }
   },
   {
     "description": "Garlic, raw",
@@ -5329,7 +6001,13 @@
         "median": 6.66,
         "amount": 6.62
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 103.8,
+      "kcal": 142.8
+    }
   },
   {
     "description": "Flour, soy, defatted",
@@ -5375,7 +6053,13 @@
         "median": 8.23,
         "amount": 8.18
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 186.6,
+      "kcal": 365.8
+    }
   },
   {
     "description": "Flour, soy, full-fat",
@@ -5421,7 +6105,13 @@
         "median": 6.44,
         "amount": 6.18
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 146.9,
+      "kcal": 451.9
+    }
   },
   {
     "description": "Flour, rice, brown",
@@ -5467,7 +6157,13 @@
         "median": 1.16,
         "amount": 1.15
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.9,
+      "kcal": 371.3
+    }
   },
   {
     "description": "Flour, rice, glutinous",
@@ -5513,7 +6209,13 @@
         "median": 6.66,
         "amount": 6.69
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.2,
+      "kcal": 358.3
+    }
   },
   {
     "description": "Flour, pastry, unenriched, unbleached",
@@ -5559,7 +6261,13 @@
         "median": 8.88,
         "amount": 8.75
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.7,
+      "kcal": 358.3
+    }
   },
   {
     "description": "Onions, white, raw",
@@ -5619,7 +6327,13 @@
         "median": 0.88,
         "amount": 0.89
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 113.1,
+      "kcal": 35.2
+    }
   },
   {
     "description": "Bananas, overripe, raw",
@@ -5679,7 +6393,13 @@
         "median": 0.69,
         "amount": 0.73
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 110.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 154.4,
+      "kcal": 85.2
+    }
   },
   {
     "description": "Bananas, ripe and slightly ripe, raw",
@@ -5739,7 +6459,13 @@
         "median": 0.12,
         "amount": 0.12
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 115.0,
+      "unitname": "g",
+      "total-nutrient-weight-g": 164.1,
+      "kcal": 97.3
+    }
   },
   {
     "description": "Apples, red delicious, with skin, raw",
@@ -5799,7 +6525,13 @@
         "median": 0.188,
         "amount": 0.188
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 153.2,
+      "kcal": 58.7
+    }
   },
   {
     "description": "Apples, fuji, with skin, raw",
@@ -5859,7 +6591,13 @@
         "median": 0.125,
         "amount": 0.148
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 157.6,
+      "kcal": 61.4
+    }
   },
   {
     "description": "Apples, gala, with skin, raw",
@@ -5919,7 +6657,13 @@
         "median": 0.188,
         "amount": 0.133
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 151.6,
+      "kcal": 58.0
+    }
   },
   {
     "description": "Apples, granny smith, with skin, raw",
@@ -5979,7 +6723,13 @@
         "median": 0.281,
         "amount": 0.266
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 147.8,
+      "kcal": 56.0
+    }
   },
   {
     "description": "Apples, honeycrisp, with skin, raw",
@@ -6039,23 +6789,53 @@
         "median": 0.125,
         "amount": 0.102
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 153.1,
+      "kcal": 57.0
+    }
   },
   {
     "description": "Oil, peanut",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 300.8,
+      "kcal": NaN
+    }
   },
   {
     "description": "Oil, sunflower",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 300.9,
+      "kcal": NaN
+    }
   },
   {
     "description": "Oil, safflower",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 293.9,
+      "kcal": NaN
+    }
   },
   {
     "description": "Oil, olive, extra light",
-    "foodNutrients": []
+    "foodNutrients": [],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 289.6,
+      "kcal": NaN
+    }
   },
   {
     "description": "Mushroom, lion's mane",
@@ -6116,7 +6896,13 @@
         "median": 4.12,
         "amount": 4.38
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 107.9,
+      "kcal": 38.9
+    }
   },
   {
     "description": "Mushroom, oyster",
@@ -6177,7 +6963,13 @@
         "median": 2.66,
         "amount": 2.85
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.8,
+      "kcal": 37.2
+    }
   },
   {
     "description": "Mushrooms, shiitake",
@@ -6238,7 +7030,13 @@
         "median": 4.18,
         "amount": 4.17
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 107.8,
+      "kcal": 40.2
+    }
   },
   {
     "description": "Mushrooms, white button",
@@ -6299,7 +7097,13 @@
         "median": 1.74,
         "amount": 1.72
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 103.5,
+      "kcal": 28.0
+    }
   },
   {
     "description": "Soy milk, unsweetened, plain, shelf stable",
@@ -6359,7 +7163,13 @@
         "median": 3.47,
         "amount": 3.55
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 126.3,
+      "kcal": 38.5
+    }
   },
   {
     "description": "Almond milk, unsweetened, plain, shelf stable",
@@ -6419,7 +7229,13 @@
         "median": 0.531,
         "amount": 0.555
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 104.0,
+      "kcal": 14.6
+    }
   },
   {
     "description": "Spinach, baby",
@@ -6479,7 +7295,13 @@
         "median": 2.69,
         "amount": 2.85
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 104.5,
+      "kcal": 23.6
+    }
   },
   {
     "description": "Spinach, mature",
@@ -6539,7 +7361,13 @@
         "median": 2.75,
         "amount": 2.91
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 102.8,
+      "kcal": 24.6
+    }
   },
   {
     "description": "Tomato, roma",
@@ -6599,7 +7427,13 @@
         "median": 0.656,
         "amount": 0.696
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.3,
+      "kcal": 20.5
+    }
   },
   {
     "description": "Flour, 00",
@@ -6659,7 +7493,13 @@
         "median": 11.2,
         "amount": 11.4
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 104.8,
+      "kcal": 361.5
+    }
   },
   {
     "description": "Flour, spelt, whole grain",
@@ -6719,7 +7559,13 @@
         "median": 14.8,
         "amount": 14.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 112.5,
+      "kcal": 352.5
+    }
   },
   {
     "description": "Flour, semolina, coarse and semi-coarse",
@@ -6779,7 +7625,13 @@
         "median": 11.0,
         "amount": 11.7
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 105.4,
+      "kcal": 361.0
+    }
   },
   {
     "description": "Flour, semolina, fine",
@@ -6839,7 +7691,13 @@
         "median": 13.5,
         "amount": 13.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.2,
+      "kcal": 362.0
+    }
   },
   {
     "description": "Apple juice, with added vitamin C, from concentrate, shelf stable",
@@ -6885,7 +7743,13 @@
         "median": 0.125,
         "amount": 0.086
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 121.1,
+      "kcal": 47.8
+    }
   },
   {
     "description": "Orange juice, no pulp, not fortified, from concentrate, refrigerated",
@@ -6931,7 +7795,13 @@
         "median": 0.75,
         "amount": 0.734
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 117.7,
+      "kcal": 46.4
+    }
   },
   {
     "description": "Grape juice, purple, with added vitamin C, from concentrate, shelf stable",
@@ -6977,7 +7847,13 @@
         "median": 0.25,
         "amount": 0.258
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 128.5,
+      "kcal": 65.3
+    }
   },
   {
     "description": "Grape juice, white, with added vitamin C, from concentrate, shelf stable",
@@ -7023,7 +7899,13 @@
         "median": 0.062,
         "amount": 0.094
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 129.3,
+      "kcal": 65.4
+    }
   },
   {
     "description": "Cranberry juice, not fortified, from concentrate, shelf stable",
@@ -7069,7 +7951,13 @@
         "median": 0.0,
         "amount": 0.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 109.8,
+      "kcal": 31.7
+    }
   },
   {
     "description": "Grapefruit juice, red, not fortified, not from concentrate, refrigerated",
@@ -7115,7 +8003,13 @@
         "median": 0.562,
         "amount": 0.57
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 115.6,
+      "kcal": 40.4
+    }
   },
   {
     "description": "Tomato juice, with added ingredients, from concentrate, shelf stable",
@@ -7161,7 +8055,13 @@
         "median": 0.875,
         "amount": 0.859
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 105.8,
+      "kcal": 21.6
+    }
   },
   {
     "description": "Orange juice, no pulp, not fortified, not from concentrate, refrigerated",
@@ -7207,7 +8107,13 @@
         "median": 0.844,
         "amount": 0.812
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 117.5,
+      "kcal": 45.8
+    }
   },
   {
     "description": "Mushroom, portabella",
@@ -7268,7 +8174,13 @@
         "median": 1.9,
         "amount": 1.88
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 104.0,
+      "kcal": 29.2
+    }
   },
   {
     "description": "Mushroom, king oyster",
@@ -7329,7 +8241,13 @@
         "median": 3.03,
         "amount": 3.01
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 108.3,
+      "kcal": 42.4
+    }
   },
   {
     "description": "Mushroom, enoki",
@@ -7390,7 +8308,13 @@
         "median": 2.84,
         "amount": 2.94
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.1,
+      "kcal": 40.6
+    }
   },
   {
     "description": "Mushroom, crimini",
@@ -7451,7 +8375,13 @@
         "median": 1.69,
         "amount": 1.78
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 103.7,
+      "kcal": 27.0
+    }
   },
   {
     "description": "Mushroom, maitake",
@@ -7512,7 +8442,13 @@
         "median": 3.04,
         "amount": 3.07
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.4,
+      "kcal": 34.3
+    }
   },
   {
     "description": "Mushroom, beech",
@@ -7573,7 +8509,13 @@
         "median": 3.19,
         "amount": 3.14
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.9,
+      "kcal": 36.4
+    }
   },
   {
     "description": "Mushroom, pioppini",
@@ -7634,7 +8576,13 @@
         "median": 3.14,
         "amount": 2.75
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.0,
+      "kcal": 35.2
+    }
   },
   {
     "description": "Soy milk, sweetened, plain, refrigerated",
@@ -7694,7 +8642,13 @@
         "median": 2.69,
         "amount": 2.78
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.1,
+      "kcal": 40.7
+    }
   },
   {
     "description": "Almond milk, unsweetened, plain, refrigerated",
@@ -7754,7 +8708,13 @@
         "median": 0.531,
         "amount": 0.656
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.1,
+      "kcal": 19.3
+    }
   },
   {
     "description": "Oat milk, unsweetened, plain, refrigerated",
@@ -7814,7 +8774,13 @@
         "median": 0.844,
         "amount": 0.797
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.2,
+      "kcal": 48.3
+    }
   },
   {
     "description": "Carrots, mature, raw",
@@ -7874,7 +8840,13 @@
         "median": 0.938,
         "amount": 0.941
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 103.7,
+      "kcal": 46.5
+    }
   },
   {
     "description": "Carrots, baby, raw",
@@ -7934,7 +8906,13 @@
         "median": 0.812,
         "amount": 0.805
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 103.2,
+      "kcal": 39.6
+    }
   },
   {
     "description": "Peppers, bell, green, raw",
@@ -7994,7 +8972,13 @@
         "median": 0.719,
         "amount": 0.715
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.3,
+      "kcal": 21.3
+    }
   },
   {
     "description": "Peppers, bell, yellow, raw",
@@ -8054,7 +9038,13 @@
         "median": 0.75,
         "amount": 0.819
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.6,
+      "kcal": 28.7
+    }
   },
   {
     "description": "Peppers, bell, red, raw",
@@ -8114,7 +9104,13 @@
         "median": 0.812,
         "amount": 0.896
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.7,
+      "kcal": 29.2
+    }
   },
   {
     "description": "Peppers, bell, orange, raw",
@@ -8174,7 +9170,13 @@
         "median": 0.875,
         "amount": 0.882
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.5,
+      "kcal": 29.6
+    }
   },
   {
     "description": "Buttermilk, low fat",
@@ -8220,7 +9222,13 @@
         "median": 3.41,
         "amount": 3.46
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 105.9,
+      "kcal": 42.8
+    }
   },
   {
     "description": "Yogurt, plain, whole milk",
@@ -8266,7 +9274,13 @@
         "median": 3.59,
         "amount": 3.82
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 115.2,
+      "kcal": 77.6
+    }
   },
   {
     "description": "Yogurt, Greek, plain, whole milk",
@@ -8312,7 +9326,13 @@
         "median": 9.35,
         "amount": 8.78
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 114.6,
+      "kcal": 94.1
+    }
   },
   {
     "description": "Cheese, parmesan, grated, refrigerated",
@@ -8358,7 +9378,13 @@
         "median": 30.4,
         "amount": 30.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 155.0,
+      "kcal": 404.0
+    }
   },
   {
     "description": "Cheese, feta, whole milk, crumbled",
@@ -8404,7 +9430,13 @@
         "median": 19.4,
         "amount": 19.7
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 138.6,
+      "kcal": 273.0
+    }
   },
   {
     "description": "Flour, almond",
@@ -8464,7 +9496,13 @@
         "median": 26.5,
         "amount": 26.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 115.0,
+      "kcal": 600.0
+    }
   },
   {
     "description": "Flour, oat, whole grain",
@@ -8524,7 +9562,13 @@
         "median": 13.3,
         "amount": 13.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 196.5,
+      "kcal": 387.5
+    }
   },
   {
     "description": "Flour, potato",
@@ -8584,7 +9628,13 @@
         "median": 9.14,
         "amount": 8.11
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 204.2,
+      "kcal": 357.0
+    }
   },
   {
     "description": "Peanut butter, creamy",
@@ -8644,7 +9694,13 @@
         "median": 23.9,
         "amount": 24.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 238.1,
+      "kcal": 610.5
+    }
   },
   {
     "description": "Sesame butter, creamy",
@@ -8704,7 +9760,13 @@
         "median": 19.7,
         "amount": 19.7
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 253.7,
+      "kcal": 672.5
+    }
   },
   {
     "description": "Almond butter, creamy",
@@ -8764,7 +9826,13 @@
         "median": 21.3,
         "amount": 20.8
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 245.4,
+      "kcal": 624.0
+    }
   },
   {
     "description": "Flaxseed, ground",
@@ -8824,7 +9892,13 @@
         "median": 17.4,
         "amount": 18.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 219.0,
+      "kcal": 529.5
+    }
   },
   {
     "description": "Cottage cheese, full fat, large or small curd",
@@ -8870,7 +9944,13 @@
         "median": 11.2,
         "amount": 11.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 108.3,
+      "kcal": 104.0
+    }
   },
   {
     "description": "Cream cheese, full fat, block",
@@ -8916,7 +9996,13 @@
         "median": 5.65,
         "amount": 5.79
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 145.5,
+      "kcal": 340.0
+    }
   },
   {
     "description": "Cream, heavy",
@@ -8962,7 +10048,13 @@
         "median": 1.98,
         "amount": 2.02
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 146.2,
+      "kcal": 339.5
+    }
   },
   {
     "description": "Cream, sour, full fat",
@@ -9008,7 +10100,13 @@
         "median": 2.87,
         "amount": 3.07
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 124.8,
+      "kcal": 194.5
+    }
   },
   {
     "description": "Lettuce, iceberg, raw",
@@ -9054,7 +10152,13 @@
         "median": 0.75,
         "amount": 0.742
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 100.3,
+      "kcal": 15.8
+    }
   },
   {
     "description": "Lettuce, romaine, green, raw",
@@ -9100,7 +10204,13 @@
         "median": 0.969,
         "amount": 0.977
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 100.5,
+      "kcal": 19.2
+    }
   },
   {
     "description": "Lettuce, leaf, red, raw",
@@ -9146,7 +10256,13 @@
         "median": 0.906,
         "amount": 0.883
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 100.5,
+      "kcal": 16.1
+    }
   },
   {
     "description": "Lettuce, leaf, green, raw",
@@ -9192,7 +10308,13 @@
         "median": 1.12,
         "amount": 1.09
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 100.6,
+      "kcal": 20.2
+    }
   },
   {
     "description": "Nuts, pine nuts, raw",
@@ -9252,7 +10374,13 @@
         "median": 15.8,
         "amount": 15.7
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 125.3,
+      "kcal": 666.0
+    }
   },
   {
     "description": "Nuts, almonds, whole, raw",
@@ -9312,7 +10440,13 @@
         "median": 21.0,
         "amount": 21.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 184.5,
+      "kcal": 605.0
+    }
   },
   {
     "description": "Nuts, walnuts, English, halves, raw",
@@ -9372,7 +10506,13 @@
         "median": 14.6,
         "amount": 14.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 188.1,
+      "kcal": 704.5
+    }
   },
   {
     "description": "Nuts, pecans, halves, raw",
@@ -9432,7 +10572,13 @@
         "median": 9.94,
         "amount": 9.96
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 187.7,
+      "kcal": 725.0
+    }
   },
   {
     "description": "Oats, whole grain, rolled, old fashioned",
@@ -9478,7 +10624,13 @@
         "median": 14.1,
         "amount": 13.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 181.7,
+      "kcal": 380.5
+    }
   },
   {
     "description": "Oats, whole grain, steel cut",
@@ -9524,7 +10676,13 @@
         "median": 12.7,
         "amount": 12.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 185.6,
+      "kcal": 380.0
+    }
   },
   {
     "description": "Pineapple, raw",
@@ -9584,7 +10742,13 @@
         "median": 0.438,
         "amount": 0.461
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 125.0,
+      "kcal": 57.0
+    }
   },
   {
     "description": "Cherries, sweet, dark red, raw",
@@ -9630,7 +10794,13 @@
         "median": 1.06,
         "amount": 1.04
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 129.0,
+      "kcal": 66.9
+    }
   },
   {
     "description": "Beans, snap, green, raw",
@@ -9690,7 +10860,13 @@
         "median": 1.78,
         "amount": 1.97
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 108.4,
+      "kcal": 36.8
+    }
   },
   {
     "description": "Potatoes, russet, without skin, raw",
@@ -9736,7 +10912,13 @@
         "median": 2.25,
         "amount": 2.27
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 131.8,
+      "kcal": 82.2
+    }
   },
   {
     "description": "Potatoes, red, without skin, raw",
@@ -9782,7 +10964,13 @@
         "median": 2.06,
         "amount": 2.06
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 129.9,
+      "kcal": 74.5
+    }
   },
   {
     "description": "Potatoes, gold, without skin, raw",
@@ -9828,7 +11016,13 @@
         "median": 1.75,
         "amount": 1.81
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 129.8,
+      "kcal": 72.6
+    }
   },
   {
     "description": "Sweet potatoes, orange flesh, without skin, raw",
@@ -9874,7 +11068,13 @@
         "median": 1.5,
         "amount": 1.58
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 121.7,
+      "kcal": 78.2
+    }
   },
   {
     "description": "Celery, raw",
@@ -9920,7 +11120,13 @@
         "median": 0.531,
         "amount": 0.492
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 100.5,
+      "kcal": 15.8
+    }
   },
   {
     "description": "Cucumber, with peel, raw",
@@ -9966,7 +11172,13 @@
         "median": 0.625,
         "amount": 0.625
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 100.3,
+      "kcal": 14.9
+    }
   },
   {
     "description": "Cabbage, green, raw",
@@ -10012,7 +11224,13 @@
         "median": 0.938,
         "amount": 0.961
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 100.5,
+      "kcal": 29.6
+    }
   },
   {
     "description": "Cabbage, red, raw",
@@ -10058,7 +11276,13 @@
         "median": 1.19,
         "amount": 1.24
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 100.6,
+      "kcal": 32.0
+    }
   },
   {
     "description": "Strawberries, raw",
@@ -10104,7 +11328,13 @@
         "median": 0.625,
         "amount": 0.641
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 111.0,
+      "kcal": 34.6
+    }
   },
   {
     "description": "Raspberries, raw",
@@ -10150,7 +11380,13 @@
         "median": 0.938,
         "amount": 1.01
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 107.6,
+      "kcal": 54.4
+    }
   },
   {
     "description": "Blueberries, raw",
@@ -10196,7 +11432,13 @@
         "median": 0.625,
         "amount": 0.703
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 119.0,
+      "kcal": 60.6
+    }
   },
   {
     "description": "Grapes, red, seedless, raw",
@@ -10242,7 +11484,13 @@
         "median": 0.875,
         "amount": 0.914
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 135.1,
+      "kcal": 81.6
+    }
   },
   {
     "description": "Grapes, green, seedless, raw",
@@ -10288,7 +11536,13 @@
         "median": 0.781,
         "amount": 0.899
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 132.7,
+      "kcal": 76.0
+    }
   },
   {
     "description": "Applesauce, unsweetened, with added vitamin C",
@@ -10334,7 +11588,13 @@
         "median": 0.219,
         "amount": 0.273
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 120.0,
+      "kcal": 49.0
+    }
   },
   {
     "description": "Flour, amaranth",
@@ -10394,7 +11654,13 @@
         "median": 13.5,
         "amount": 13.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 184.4,
+      "kcal": 381.0
+    }
   },
   {
     "description": "Flour, quinoa",
@@ -10454,7 +11720,13 @@
         "median": 11.8,
         "amount": 11.9
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 181.0,
+      "kcal": 381.5
+    }
   },
   {
     "description": "Flour, sorghum",
@@ -10514,7 +11786,13 @@
         "median": 8.51,
         "amount": 8.27
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 190.3,
+      "kcal": 369.5
+    }
   },
   {
     "description": "Flour, buckwheat",
@@ -10574,7 +11852,13 @@
         "median": 9.79,
         "amount": 8.88
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 193.8,
+      "kcal": 346.0
+    }
   },
   {
     "description": "Flour, rye",
@@ -10634,7 +11918,13 @@
         "median": 7.99,
         "amount": 8.4
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 207.8,
+      "kcal": 355.0
+    }
   },
   {
     "description": "Flour, barley",
@@ -10694,7 +11984,13 @@
         "median": 8.6,
         "amount": 8.72
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 208.5,
+      "kcal": 362.0
+    }
   },
   {
     "description": "Flour, cassava",
@@ -10754,7 +12050,13 @@
         "median": 0.787,
         "amount": 0.918
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 200.4,
+      "kcal": 358.0
+    }
   },
   {
     "description": "Buckwheat, whole grain",
@@ -10814,7 +12116,13 @@
         "median": 11.1,
         "amount": 11.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 177.5,
+      "kcal": 344.0
+    }
   },
   {
     "description": "Millet, whole grain",
@@ -10874,7 +12182,13 @@
         "median": 10.6,
         "amount": 10.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 178.0,
+      "kcal": 378.5
+    }
   },
   {
     "description": "Rice, brown, long grain, unenriched, raw",
@@ -10934,7 +12248,13 @@
         "median": 7.17,
         "amount": 7.25
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 184.8,
+      "kcal": 367.0
+    }
   },
   {
     "description": "Rice, white, long grain, unenriched, raw",
@@ -10994,7 +12314,13 @@
         "median": 6.75,
         "amount": 7.04
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 180.9,
+      "kcal": 364.5
+    }
   },
   {
     "description": "Beef, ground, 90% lean meat / 10% fat, raw",
@@ -11040,7 +12366,13 @@
         "median": 18.0,
         "amount": 18.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 114.7,
+      "kcal": 187.5
+    }
   },
   {
     "description": "Beef, ground, 80% lean meat / 20% fat, raw",
@@ -11086,7 +12418,13 @@
         "median": 17.5,
         "amount": 17.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 119.2,
+      "kcal": 245.5
+    }
   },
   {
     "description": "Pork, ground, raw",
@@ -11132,7 +12470,13 @@
         "median": 17.6,
         "amount": 17.8
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 120.3,
+      "kcal": 230.5
+    }
   },
   {
     "description": "Chicken, ground, with additives, raw",
@@ -11178,7 +12522,13 @@
         "median": 16.9,
         "amount": 17.9
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 109.4,
+      "kcal": 135.5
+    }
   },
   {
     "description": "Turkey, ground, 93% lean/ 7% fat, raw",
@@ -11224,7 +12574,13 @@
         "median": 17.4,
         "amount": 17.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 111.9,
+      "kcal": 155.5
+    }
   },
   {
     "description": "Nuts, brazilnuts, raw",
@@ -11284,7 +12640,13 @@
         "median": 15.0,
         "amount": 15.0
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 110.4,
+      "kcal": 642.5
+    }
   },
   {
     "description": "Nuts, cashew nuts, raw",
@@ -11344,7 +12706,13 @@
         "median": 17.2,
         "amount": 17.4
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 108.9,
+      "kcal": 549.0
+    }
   },
   {
     "description": "Nuts, hazelnuts or filberts, raw",
@@ -11404,7 +12772,13 @@
         "median": 13.9,
         "amount": 13.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 112.2,
+      "kcal": 621.5
+    }
   },
   {
     "description": "Peanuts, raw",
@@ -11464,7 +12838,13 @@
         "median": 23.4,
         "amount": 23.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 113.5,
+      "kcal": 569.5
+    }
   },
   {
     "description": "Flour, chestnut",
@@ -11524,7 +12904,13 @@
         "median": 5.11,
         "amount": 5.29
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 114.5,
+      "kcal": 385.0
+    }
   },
   {
     "description": "Nuts, macadamia nuts, raw",
@@ -11584,7 +12970,13 @@
         "median": 7.87,
         "amount": 7.79
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 109.8,
+      "kcal": 690.5
+    }
   },
   {
     "description": "Nuts, pistachio nuts, raw",
@@ -11644,7 +13036,13 @@
         "median": 20.5,
         "amount": 20.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 112.5,
+      "kcal": 579.5
+    }
   },
   {
     "description": "Seeds, pumpkin seeds (pepitas), raw",
@@ -11704,7 +13102,13 @@
         "median": 30.2,
         "amount": 29.9
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 113.1,
+      "kcal": 535.0
+    }
   },
   {
     "description": "Seeds, sunflower seed, kernel, raw",
@@ -11764,7 +13168,13 @@
         "median": 18.4,
         "amount": 18.9
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 112.6,
+      "kcal": 590.0
+    }
   },
   {
     "description": "Flour, coconut",
@@ -11824,7 +13234,13 @@
         "median": 16.5,
         "amount": 16.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 155.1,
+      "kcal": 431.0
+    }
   },
   {
     "description": "Beans, cannellini, dry",
@@ -11870,7 +13286,13 @@
         "median": 21.2,
         "amount": 21.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 135.5,
+      "kcal": 341.0
+    }
   },
   {
     "description": "Chickpeas, (garbanzo beans, bengal gram), dry",
@@ -11916,7 +13338,13 @@
         "median": 21.3,
         "amount": 21.3
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 139.3,
+      "kcal": 377.5
+    }
   },
   {
     "description": "Lentils, dry",
@@ -11962,7 +13390,13 @@
         "median": 23.7,
         "amount": 23.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 142.4,
+      "kcal": 355.5
+    }
   },
   {
     "description": "Blackeye pea, dry",
@@ -12008,7 +13442,13 @@
         "median": 21.3,
         "amount": 21.2
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 142.7,
+      "kcal": 350.0
+    }
   },
   {
     "description": "Beans, black, canned, sodium added, drained and rinsed",
@@ -12054,7 +13494,13 @@
         "median": 6.88,
         "amount": 6.91
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 120.2,
+      "kcal": 116.5
+    }
   },
   {
     "description": "Beans, navy, canned, sodium added, drained and rinsed",
@@ -12100,7 +13546,13 @@
         "median": 6.53,
         "amount": 6.57
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 120.6,
+      "kcal": 117.5
+    }
   },
   {
     "description": "Beans, cannellini, canned, sodium added, drained and rinsed",
@@ -12146,7 +13598,13 @@
         "median": 7.53,
         "amount": 7.41
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 119.8,
+      "kcal": 113.5
+    }
   },
   {
     "description": "Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed",
@@ -12192,7 +13650,13 @@
         "median": 6.91,
         "amount": 7.02
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 120.3,
+      "kcal": 135.0
+    }
   },
   {
     "description": "Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",
@@ -12238,7 +13702,13 @@
         "median": 7.62,
         "amount": 7.8
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 121.0,
+      "kcal": 125.0
+    }
   },
   {
     "description": "Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",
@@ -12284,7 +13754,13 @@
         "median": 7.44,
         "amount": 7.31
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 122.1,
+      "kcal": 125.5
+    }
   },
   {
     "description": "Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",
@@ -12330,7 +13806,13 @@
         "median": 4.78,
         "amount": 4.73
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 111.6,
+      "kcal": 78.9
+    }
   },
   {
     "description": "Beans, pinto, canned, sodium added, drained and rinsed",
@@ -12376,7 +13858,13 @@
         "median": 6.75,
         "amount": 6.69
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 120.3,
+      "kcal": 115.5
+    }
   },
   {
     "description": "Blackeye pea, canned, sodium added, drained and rinsed",
@@ -12422,7 +13910,13 @@
         "median": 7.09,
         "amount": 6.92
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 119.6,
+      "kcal": 114.5
+    }
   },
   {
     "description": "Beans, great northern, canned, sodium added, drained and rinsed",
@@ -12468,7 +13962,13 @@
         "median": 7.09,
         "amount": 7.03
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 120.4,
+      "kcal": 115.5
+    }
   },
   {
     "description": "Pork, loin, boneless, raw",
@@ -12514,7 +14014,13 @@
         "median": 21.1,
         "amount": 21.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 112.7,
+      "kcal": 171.0
+    }
   },
   {
     "description": "Pork, loin, tenderloin, boneless, raw",
@@ -12560,7 +14066,13 @@
         "median": 21.2,
         "amount": 21.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 106.3,
+      "kcal": 122.0
+    }
   },
   {
     "description": "Chicken, breast, boneless, skinless, raw",
@@ -12606,7 +14118,13 @@
         "median": 22.5,
         "amount": 22.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 105.3,
+      "kcal": 109.0
+    }
   },
   {
     "description": "Chicken, thigh, boneless, skinless, raw",
@@ -12652,7 +14170,13 @@
         "median": 18.8,
         "amount": 18.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 108.9,
+      "kcal": 146.5
+    }
   },
   {
     "description": "Beef, ribeye, steak, boneless, choice, raw",
@@ -12698,7 +14222,13 @@
         "median": 19.0,
         "amount": 18.7
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 120.8,
+      "kcal": 257.0
+    }
   },
   {
     "description": "Beef, round, top round, boneless, choice, raw",
@@ -12744,7 +14274,13 @@
         "median": 21.9,
         "amount": 21.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 108.0,
+      "kcal": 143.5
+    }
   },
   {
     "description": "Beef, chuck, roast, boneless, choice, raw",
@@ -12790,7 +14326,13 @@
         "median": 18.6,
         "amount": 18.4
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 118.1,
+      "kcal": 234.5
+    }
   },
   {
     "description": "Beef, flank, steak, boneless, choice, raw",
@@ -12836,7 +14378,13 @@
         "median": 20.2,
         "amount": 20.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 111.7,
+      "kcal": 167.0
+    }
   },
   {
     "description": "Yogurt, plain, nonfat",
@@ -12882,7 +14430,13 @@
         "median": 3.99,
         "amount": 4.23
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 101.3,
+      "kcal": 50.0
+    }
   },
   {
     "description": "Cheese, monterey jack, solid",
@@ -12928,7 +14482,13 @@
         "median": 22.8,
         "amount": 22.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 148.4,
+      "kcal": 391.5
+    }
   },
   {
     "description": "Cheese, pasteurized process cheese food or product, American, singles",
@@ -12974,7 +14534,13 @@
         "median": 15.6,
         "amount": 15.6
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 137.4,
+      "kcal": 309.0
+    }
   },
   {
     "description": "Cheese, provolone, sliced",
@@ -13020,7 +14586,13 @@
         "median": 23.4,
         "amount": 23.5
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 142.0,
+      "kcal": 357.0
+    }
   },
   {
     "description": "Cheese, oaxaca, solid",
@@ -13066,7 +14638,13 @@
         "median": 22.4,
         "amount": 22.1
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 134.1,
+      "kcal": 297.5
+    }
   },
   {
     "description": "Cheese, queso fresco, solid",
@@ -13112,7 +14690,13 @@
         "median": 18.1,
         "amount": 18.9
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 136.2,
+      "kcal": 297.5
+    }
   },
   {
     "description": "Cheese, cotija, solid",
@@ -13158,6 +14742,12 @@
         "median": 23.7,
         "amount": 23.8
       }
-    ]
+    ],
+    "foodPortions": {
+      "amount": 1,
+      "unitname": "unitless",
+      "total-nutrient-weight-g": 142.7,
+      "kcal": 351.5
+    }
   }
 ]

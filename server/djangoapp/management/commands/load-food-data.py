@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from djangoapp.models import Food, Meal ,FoodNutrient
+from djangoapp.models import Food, Meal ,FoodNutrient,Nutrient
 from django.conf import settings
 import json as json
 import os
@@ -9,7 +9,7 @@ class Command(BaseCommand):
     help = 'Loads food data from JSON file into database'
 
     def handle(self, *args, **options):
-        path_to_food_db = os.path.join(settings.BASE_DIR, r'djangoapp\static\all_simplified_entries2.json')
+        path_to_food_db = os.path.join(settings.BASE_DIR, r'djangoapp\static\all_simplified_entries.json')
         food_db=json.load(open(path_to_food_db, 'r'))
 
         for f,food in enumerate(food_db):
@@ -28,29 +28,48 @@ class Command(BaseCommand):
                     foodnutrient["name"]=None
                     foodnutrient["unitname"]=None             
 
-                # remove any fields not in the model
-                dummy=FoodNutrient()
-                field_names = [f.name for f in dummy._meta.get_fields()]
-                delete_list=[]
+                # remove any fields from food nutrient that is not in the model
+                # 
+                dummy1=FoodNutrient()
+                field_names1 = [f.name for f in dummy1._meta.get_fields()]
+                dummy2=Nutrient()
+                field_names2 = [f.name for f in dummy2._meta.get_fields()]
 
+                # any fields not present in the nutrient, or the nutrient amount, dont use. 
+                field_names=list(field_names1)+list(field_names2)
+
+                delete_list1=[] # to delete from foodnutrient
+                delete_list2=[] # to delete from nutrient
                 # first remove any fields we do not need
                 for name1 in foodnutrient.keys():
-                    if name1 not in field_names:
-                        delete_list.append(name1)
+                    if name1 not in field_names1:
+                        delete_list1.append(name1)
 
-                # now 
+                for name2 in foodnutrient["nutrient"].keys():
+                    if name2 not in field_names2:
+                        delete_list2.append(name2)
+
+                # now add any nutrients that does not currently exist.
                 
-                for name1 in delete_list:
+                for name1 in delete_list1:
                     del foodnutrient[name1]
-                food_nutrient_obj, created = FoodNutrient.objects.get_or_create(**foodnutrient)
+
+                for name2 in delete_list2:
+                    del foodnutrient["nutrient"][name2]
+
+                nutrient_obj, created = Nutrient.objects.get_or_create(**foodnutrient["nutrient"])
+
+                del foodnutrient["nutrient"]
+
+                food_nutrient_obj, created = FoodNutrient.objects.get_or_create(**foodnutrient,nutrient=nutrient_obj,food=food_obj)
+
+                # now add the amount and unit
+
+                food_obj.amount=food["foodPortions"]["amount"]
+                food_obj.unitName=food["foodPortions"]["unitname"]
+                food_obj.calories=food["foodPortions"]["kcal"]
+                food_obj.save()
                 
-                food_nutrient_obj.save()
-                food_obj.foodNutrients.add(food_nutrient_obj)  
-                                   
-            
-            try:
-                food_obj.shortname=food_obj.description.split(',')[0]
-            except:
-                food_obj.shortname=food_obj.description
+
             food_obj.save()
 

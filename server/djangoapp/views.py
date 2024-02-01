@@ -5,6 +5,9 @@ from django.http import HttpResponseRedirect, HttpResponse,HttpRequest
 from django.contrib.auth.models import User
 from django.shortcuts import get_object_or_404, render, redirect
 
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+
 from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
 from datetime import datetime
@@ -12,8 +15,8 @@ import logging
 import json
 import requests
 
-from .forms import RegisterForm, PersonForm
-from .models import  Person
+from .forms import RegisterForm, PersonForm, FoodSearchForm
+from .models import  Person,Food,Meal
 
 import nltk
 nltk.download("vader_lexicon")
@@ -50,21 +53,33 @@ def register(request):
 
 def macroapp(request: HttpRequest):    
     
+
+    mealform=FoodSearchForm()
+
     if(request.method=='POST'):
         personform=PersonForm(request.POST)
+        person=Person()
         if(personform.is_valid()):
             person=Person(**personform.cleaned_data)
             person.update()
 
-            context={'person': person,'formdata':personform}
+        context={'person': person,'formdata':personform,'mealform':mealform}
     else:
         personform=PersonForm()
-        context={'person': {'Not POST'},'formdata':personform}
+        context={'person': {'Not POST'},'formdata':personform,'mealform':mealform}
+
 
             
 
     return render(request,"djangoapp/macroapp.html",context)
 
 
+@csrf_exempt
+def food_search(request):
+    params = request.GET.dict()
+    search_text = params.get('search_text', '')
+    foods = Food.objects.filter(description__icontains=search_text)
+    food_list = list(foods.values('name'))
+    return JsonResponse(food_list, safe=False)
 
 

@@ -11,25 +11,34 @@ from typing import List
 from django.db import models
 
 
-class FoodNutrient(models.Model):
-    type = models.CharField(max_length=50)
+class Nutrient(models.Model):
+    type = models.CharField(max_length=50,default='',null=True)
     name = models.CharField(max_length=150,default='',null=True)
-    unitname = models.CharField(max_length=150,default='',null=True)
-    max = models.FloatField(null=True)
-    min = models.FloatField(null=True)
-    median = models.FloatField(null=True)
+    unitName = models.CharField(max_length=150,default='',null=True)
+
+
+class FoodNutrient(models.Model):
+    food = models.ForeignKey('Food', on_delete=models.CASCADE)
+    nutrient = models.ForeignKey(Nutrient, on_delete=models.CASCADE)
     amount = models.FloatField(null=True)
 
     def __str__(self):
-        return self.name
+            return f"{self.amount}g of {self.nutrient.name} in {self.food.description}"
 
 class Food(models.Model):
     description = models.CharField(max_length=200,unique=True)
     shortname=models.CharField(max_length=100,default='',null=True)
-    foodNutrients = models.ManyToManyField(FoodNutrient)
+    nutrients = models.ManyToManyField(Nutrient, through=FoodNutrient)
+    amount = models.FloatField(default=0)
+    unitName = models.CharField(max_length=100,default='g')
+    calories = models.FloatField(default=0,null=True)
 
     def __str__(self):
-        return self.description
+        if(self.amount>0):
+            return f'{self.description},{self.amount}-{self.unitName}'
+        else:
+            return f'{self.description},{self.calories}-kCal'
+
 
 class MealFoodPortions(models.Model):
     meal = models.ForeignKey('Meal', on_delete=models.CASCADE)
