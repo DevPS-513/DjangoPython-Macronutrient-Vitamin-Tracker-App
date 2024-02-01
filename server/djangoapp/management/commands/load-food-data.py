@@ -13,9 +13,9 @@ class Command(BaseCommand):
         food_db=json.load(open(path_to_food_db, 'r'))
 
         for f,food in enumerate(food_db):
-            print("adding food..",food["description"])
 
             food_obj, created = Food.objects.get_or_create(description=food["description"])
+            print("food..",food["description"],"..get_or_create..",created)
 
             for n,foodnutrient in enumerate(food["foodNutrients"]):
 
@@ -45,8 +45,12 @@ class Command(BaseCommand):
                 food_nutrient_obj, created = FoodNutrient.objects.get_or_create(**foodnutrient)
                 
                 food_nutrient_obj.save()
-                food_obj.foodNutrients.add(food_nutrient_obj)                     
+                food_obj.foodNutrients.add(food_nutrient_obj)  
+                                   
             
-
+            try:
+                food_obj.shortname=food_obj.description.split(',')[0]
+            except:
+                food_obj.shortname=food_obj.description
             food_obj.save()
 

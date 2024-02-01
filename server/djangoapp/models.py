@@ -20,18 +20,32 @@ class FoodNutrient(models.Model):
     median = models.FloatField(null=True)
     amount = models.FloatField(null=True)
 
+    def __str__(self):
+        return self.name
+
 class Food(models.Model):
     description = models.CharField(max_length=200,unique=True)
+    shortname=models.CharField(max_length=100,default='',null=True)
     foodNutrients = models.ManyToManyField(FoodNutrient)
 
+    def __str__(self):
+        return self.description
 
-# Define that every meal can be a combination of one or  more foods, and
+class MealFoodPortions(models.Model):
+    meal = models.ForeignKey('Meal', on_delete=models.CASCADE)
+    food = models.ForeignKey(Food, on_delete=models.CASCADE)
+    portion_percent = models.DecimalField(max_digits=5, decimal_places=2)
+
+    def __str__(self):
+        return f"{self.portion_percent}% of {self.food.description} in {self.meal.name}"
+
     
 class Meal(models.Model):
     name=models.CharField(max_length=100)
-    foods=models.ManyToManyField(Food, blank=True)
+    foods=models.ManyToManyField(Food, blank=True,through=MealFoodPortions)
 
-    
+    def __str__(self):
+        return self.name
 
 
 class Person(models.Model):
