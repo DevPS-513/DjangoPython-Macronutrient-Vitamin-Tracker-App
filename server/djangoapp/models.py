@@ -3,6 +3,35 @@ from django.utils.timezone import now
 from django.conf import settings
 import os
 import pandas as pd
+import numpy as np
+
+from dataclasses import dataclass
+from typing import List
+
+from django.db import models
+
+
+class FoodNutrient(models.Model):
+    type = models.CharField(max_length=50)
+    name = models.CharField(max_length=150,default='',null=True)
+    unitname = models.CharField(max_length=150,default='',null=True)
+    max = models.FloatField(null=True)
+    min = models.FloatField(null=True)
+    median = models.FloatField(null=True)
+    amount = models.FloatField(null=True)
+
+class Food(models.Model):
+    description = models.CharField(max_length=200,unique=True)
+    foodNutrients = models.ManyToManyField(FoodNutrient)
+
+
+# Define that every meal can be a combination of one or  more foods, and
+    
+class Meal(models.Model):
+    name=models.CharField(max_length=100)
+    foods=models.ManyToManyField(Food, blank=True)
+
+    
 
 
 class Person(models.Model):
@@ -42,35 +71,44 @@ class Person(models.Model):
 
     def update(self):
         weight_Kg = float(self.weight_lbs )/ 2.2046
-        height_in_meters = ((12*float(self.height_ft)+float(self.height_in) )/ 2.54) / 100
+        total_height_inches=(12*float(self.height_ft)+float(self.height_in) )
+        height_in_meters = (total_height_inches*2.54) / 100
 
-        self.BMI = weight_Kg / (height_in_meters * height_in_meters)
+        self.BMI = np.round(weight_Kg / (height_in_meters * height_in_meters),1)
 
-        if self.gender == "male":
+        if self.gender == "M":
             weight_const = 4.536
             dc_offset = 5
             height_const = 15.88
             age_constant = -5
 
-        elif self.gender == "female":
+        elif self.gender == "F":
             dc_offset = -161
             weight_const = 4.536
             height_const = 15.88
             age_constant = -5
 
-        elif self.gender == "other":
+        elif self.gender == "O":
             dc_offset = (-161+5)/2
             weight_const =4.536
             height_const = 15.88
             age_constant = -5
 
+        else:
+            dc_offset = 0
+            weight_const = 0
+            height_const = 0
+            age_constant = 0
+
 
         self.BMR = (
             dc_offset
             + weight_const * float(self.weight_lbs)
-            + height_const * float(self.height_in)
+            + height_const * float(total_height_inches)
             + age_constant * float(self.age)
         )
+
+        self.BMR=int(np.round(  self.BMR,0))
 
     def __str__(self):
         out_str = ""

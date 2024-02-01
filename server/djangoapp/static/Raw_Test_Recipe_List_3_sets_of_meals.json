@@ -1,0 +1,454 @@
+[{
+  "recipe": {
+    "name": "Scrambled Eggs",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2
+      },
+      {
+        "name": "milk",
+        "quantity": 1/4 cup
+      },
+      {
+        "name": "butter",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "salt",
+        "quantity": to taste
+      },
+      {
+        "name": "pepper",
+        "quantity": to taste
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 12g,
+    "carbs": 1g,
+    "fat": 9g,
+    "vitamins": {
+      "vitamin A": 560 IU,
+      "vitamin C": 0mg,
+      "vitamin D": 80 IU,
+      "vitamin E": 1.3mg,
+      "vitamin K": 0.2mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Protein-Packed Oatmeal",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "quantity": 1/2 cup
+      },
+      {
+        "name": "water",
+        "quantity": 1 cup
+      },
+      {
+        "name": "protein powder",
+        "quantity": 1 scoop
+      },
+      {
+        "name": "berries",
+        "quantity": 1/2 cup
+      },
+      {
+        "name": "nuts",
+        "quantity": 1/4 cup
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 20g,
+    "carbs": 30g,
+    "fat": 10g,
+    "vitamins": {
+      "vitamin A": 0 IU,
+      "vitamin C": 10mg,
+      "vitamin D": 0 IU,
+      "vitamin E": 1mg,
+      "vitamin K": 0mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Greek Yogurt Parfait",
+    "ingredients": [
+      {
+        "name": "Greek yogurt",
+        "quantity": 1 cup
+      },
+      {
+        "name": "berries",
+        "quantity": 1/2 cup
+      },
+      {
+        "name": "granola",
+        "quantity": 1/4 cup
+      },
+      {
+        "name": "honey",
+        "quantity": 1 tablespoon
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 20g,
+    "carbs": 25g,
+    "fat": 10g,
+    "vitamins": {
+      "vitamin A": 0 IU,
+      "vitamin C": 10mg,
+      "vitamin D": 0 IU,
+      "vitamin E": 1mg,
+      "vitamin K": 0mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Scrambled Eggs with Vegetables",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": 2
+      },
+      {
+        "name": "milk",
+        "quantity": 1/4 cup
+      },
+      {
+        "name": "butter",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "vegetables (such as onions, peppers, tomatoes)",
+        "quantity": 1/2 cup
+      },
+      {
+        "name": "salt",
+        "quantity": to taste
+      },
+      {
+        "name": "pepper",
+        "quantity": to taste
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 12g,
+    "carbs": 1g,
+    "fat": 9g,
+    "vitamins": {
+      "vitamin A": 560 IU,
+      "vitamin C": 0mg,
+      "vitamin D": 80 IU,
+      "vitamin E": 1.3mg,
+      "vitamin K": 0.2mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Chicken and Avocado Salad",
+    "ingredients": [
+      {
+        "name": "cooked chicken",
+        "quantity": 1/2 cup
+      },
+      {
+        "name": "avocado",
+        "quantity": 1/2
+      },
+      {
+        "name": "mixed greens",
+        "quantity": 2 cups
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1/2 cup
+      },
+      {
+        "name": "cucumber",
+        "quantity": 1/2 cup
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "salt",
+        "quantity": to taste
+      },
+      {
+        "name": "pepper",
+        "quantity": to taste
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 25g,
+    "carbs": 10g,
+    "fat": 15g,
+    "vitamins": {
+      "vitamin A": 1000 IU,
+      "vitamin C": 15mg,
+      "vitamin D": 0 IU,
+      "vitamin E": 2mg,
+      "vitamin K": 10mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Tuna Salad Sandwich",
+    "ingredients": [
+      {
+        "name": "canned tuna",
+        "quantity": 1 can
+      },
+      {
+        "name": "mayonnaise",
+        "quantity": 1/4 cup
+      },
+      {
+        "name": "celery",
+        "quantity": 1/2 cup
+      },
+      {
+        "name": "onion",
+        "quantity": 1/4 cup
+      },
+      {
+        "name": "bread",
+        "quantity": 2 slices
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 20g,
+    "carbs": 25g,
+    "fat": 10g,
+    "vitamins": {
+      "vitamin A": 0 IU,
+      "vitamin C": 0mg,
+      "vitamin D": 0 IU,
+      "vitamin E": 0mg,
+      "vitamin K": 0mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Quinoa Salad with Roasted Vegetables",
+    "ingredients": [
+      {
+        "name": "quinoa",
+        "quantity": 1 cup
+      },
+      {
+        "name": "water",
+        "quantity": 2 cups
+      },
+      {
+        "name": "vegetables (such as broccoli, carrots, and bell peppers)",
+        "quantity": 2 cups
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "salt",
+        "quantity": to taste
+      },
+      {
+        "name": "pepper",
+        "quantity": to taste
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 8g,
+    "carbs": 30g,
+    "fat": 5g,
+    "vitamins": {
+      "vitamin A": 1000 IU,
+      "vitamin C": 50mg,
+      "vitamin D": 0 IU,
+      "vitamin E": 2mg,
+      "vitamin K": 10mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Chicken Teriyaki Stir-Fry",
+    "ingredients": [
+      {
+        "name": "boneless, skinless chicken breasts",
+        "quantity": 1 pound
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 1/4 cup
+      },
+      {
+        "name": "brown sugar",
+        "quantity": 1/4 cup
+      },
+      {
+        "name": "cornstarch",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "water",
+        "quantity": 1/4 cup
+      },
+      {
+        "name": "vegetable oil",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "broccoli",
+        "quantity": 1 head
+      },
+      {
+        "name": "red bell pepper",
+        "quantity": 1
+      },
+      {
+        "name": "rice",
+        "quantity": 1 cup
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 30g,
+    "carbs": 40g,
+    "fat": 15g,
+    "vitamins": {
+      "vitamin A": 1000 IU,
+      "vitamin C": 50mg,
+      "vitamin D": 0 IU,
+      "vitamin E": 2mg,
+      "vitamin K": 10mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Baked Salmon with Lemon and Herbs",
+    "ingredients": [
+      {
+        "name": "salmon fillets",
+        "quantity": 4
+      },
+      {
+        "name": "lemon",
+        "quantity": 1
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "salt",
+        "quantity": to taste
+      },
+      {
+        "name": "pepper",
+        "quantity": to taste
+      },
+      {
+        "name": "herbs (such as parsley, thyme, and rosemary)",
+        "quantity": 1 tablespoon
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 25g,
+    "carbs": 0g,
+    "fat": 15g,
+    "vitamins": {
+      "vitamin A": 1000 IU,
+      "vitamin C": 50mg,
+      "vitamin D": 0 IU,
+      "vitamin E": 2mg,
+      "vitamin K": 10mcg
+    }
+  }
+},
+{
+  "recipe": {
+    "name": "Vegetarian Chili",
+    "ingredients": [
+      {
+        "name": "kidney beans",
+        "quantity": 1 can
+      },
+      {
+        "name": "black beans",
+        "quantity": 1 can
+      },
+      {
+        "name": "corn",
+        "quantity": 1 can
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1 can
+      },
+      {
+        "name": "onion",
+        "quantity": 1
+      },
+      {
+        "name": "green bell pepper",
+        "quantity": 1
+      },
+      {
+        "name": "red bell pepper",
+        "quantity": 1
+      },
+      {
+        "name": "chili powder",
+        "quantity": 1 tablespoon
+      },
+      {
+        "name": "cumin",
+        "quantity": 1 teaspoon
+      },
+      {
+        "name": "salt",
+        "quantity": to taste
+      },
+      {
+        "name": "pepper",
+        "quantity": to taste
+      }
+    ]
+  },
+  "nutritional_information": {
+    "protein": 15g,
+    "carbs": 30g,
+    "fat": 5g,
+    "vitamins": {
+      "vitamin A": 1000 IU,
+      "vitamin C": 50mg,
+      "vitamin D": 0 IU,
+      "vitamin E": 2mg,
+      "vitamin K": 10mcg
+    }
+  }
+}]

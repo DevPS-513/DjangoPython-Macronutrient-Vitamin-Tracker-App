@@ -50,17 +50,18 @@ def register(request):
 
 def macroapp(request: HttpRequest):    
     
-    context={}
-    personform=PersonForm()
-    context['formdata']=personform
-    context['person']={"No Data"}
-
     if(request.method=='POST'):
         personform=PersonForm(request.POST)
         if(personform.is_valid()):
-            person=Person(request.POST)
+            person=Person(**personform.cleaned_data)
             person.update()
-            context['person']=person
+
+            context={'person': person,'formdata':personform}
+    else:
+        personform=PersonForm()
+        context={'person': {'Not POST'},'formdata':personform}
+
+            
 
     return render(request,"djangoapp/macroapp.html",context)
 
