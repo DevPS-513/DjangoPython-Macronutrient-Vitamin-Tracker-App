@@ -15,11 +15,14 @@ import logging
 import json
 import requests
 
-from .forms import RegisterForm, PersonForm, FoodSearchForm
-from .models import  Person,Food,Meal
+from .forms import RegisterForm, PersonForm, FoodForm
+from .models import  Person,Food,Meal,Day
+
+from django.forms import inlineformset_factory
 
 import nltk
 nltk.download("vader_lexicon")
+
 
 
 # Create your views here.
@@ -53,33 +56,35 @@ def register(request):
 
 def macroapp(request: HttpRequest):    
     
+    person=Person()
+    personform=PersonForm()
+    foodform=FoodForm()
 
-    mealform=FoodSearchForm()
+    today_obj, created = Day.objects.get_or_create(date=datetime.now().date())
 
-    if(request.method=='POST'):
-        personform=PersonForm(request.POST)
-        person=Person()
-        if(personform.is_valid()):
-            person=Person(**personform.cleaned_data)
-            person.update()
-
-        context={'person': person,'formdata':personform,'mealform':mealform}
+    if request.method == 'POST':
+        form_type = request.POST.get('form_type')
+        if form_type == 'person_form':
+            personform = PersonForm(request.POST)
+            if personform.is_valid():
+                person = Person(**personform.cleaned_data)
+                person.update()
+        elif form_type == 'day_form':
+            foodform = FoodForm(request.POST)
+            if foodform.is_valid():
+                today_obj.foods.add(foodform.cleaned_data['description'])
+                today_obj.save()
     else:
-        personform=PersonForm()
-        context={'person': {'Not POST'},'formdata':personform,'mealform':mealform}
+        personform = PersonForm()
+        foodform = FoodForm()
 
+    context = {
+        'person': person if personform.is_valid() else 'Not POST',
+        'formdata': personform,
+        'foodform': foodform,
+        'today_object': today_obj
+    }
 
-            
-
-    return render(request,"djangoapp/macroapp.html",context)
-
-
-@csrf_exempt
-def food_search(request):
-    params = request.GET.dict()
-    search_text = params.get('search_text', '')
-    foods = Food.objects.filter(description__icontains=search_text)
-    food_list = list(foods.values('name'))
-    return JsonResponse(food_list, safe=False)
+    return render(request, "djangoapp/macroapp.html", context)
 
 

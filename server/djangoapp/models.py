@@ -32,6 +32,7 @@ class Food(models.Model):
     amount = models.FloatField(default=0)
     unitName = models.CharField(max_length=100,default='g')
     calories = models.FloatField(default=0,null=True)
+    dayof = models.ManyToManyField('Day', blank=True, null=True)
 
     def __str__(self):
         if(self.amount>0):
@@ -52,9 +53,26 @@ class MealFoodPortions(models.Model):
 class Meal(models.Model):
     name=models.CharField(max_length=100)
     foods=models.ManyToManyField(Food, blank=True,through=MealFoodPortions)
-
+    dayof = models.ManyToManyField('Day', blank=True, null=True)
     def __str__(self):
         return self.name
+    
+class Day(models.Model):
+    date=models.DateField(default=now)
+    #meals=models.ManyToManyField(Meal, blank=True)
+    foods=models.ManyToManyField(Food, blank=True)
+
+    def __str__(self):
+
+        out_string=self.date.strftime("%m/%d/%Y, %H:%M:%S")
+
+        for food in self.foods.all():
+            out_string+=food.__str__()+"\n"
+               
+            
+
+
+        return out_string
 
 
 class Person(models.Model):

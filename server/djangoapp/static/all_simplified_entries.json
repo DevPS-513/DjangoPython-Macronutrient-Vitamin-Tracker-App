@@ -46,6 +46,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -56,6 +66,16 @@
         "min": 0.99,
         "median": 1.25,
         "amount": 1.18
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 13.9
       }
     ],
     "foodPortions": {
@@ -122,6 +142,16 @@
         "min": 0.75,
         "median": 0.81,
         "amount": 0.83
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.51
       }
     ],
     "foodPortions": {
@@ -147,6 +177,16 @@
         "min": 0.3,
         "median": 0.38,
         "amount": 0.39
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.11
       },
       {
         "type": "FoodNutrient",
@@ -203,6 +243,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.89
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -251,6 +301,16 @@
         "min": 53.1,
         "median": 59.0,
         "amount": 57.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 16.2
       },
       {
         "type": "FoodNutrient",
@@ -348,6 +408,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.42
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -400,6 +470,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.91
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -435,6 +515,16 @@
         "min": 0.1,
         "median": 0.15,
         "amount": 0.16
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.74
       },
       {
         "type": "FoodNutrient",
@@ -504,6 +594,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.02
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -539,6 +639,16 @@
         "min": 12.6,
         "median": 14.8,
         "amount": 14.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 36.3
       },
       {
         "type": "FoodNutrient",
@@ -580,6 +690,16 @@
         "min": 0.51,
         "median": 0.7,
         "amount": 0.74
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 34.0
       }
     ],
     "foodPortions": {
@@ -605,6 +725,16 @@
         "min": 0.0,
         "median": 0.36,
         "amount": 0.43
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 1.99
       },
       {
         "type": "FoodNutrient",
@@ -675,6 +805,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 12.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -736,6 +876,16 @@
         "min": 29.8,
         "median": 30.7,
         "amount": 30.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.27
       },
       {
         "type": "FoodNutrient",
@@ -806,6 +956,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 7.59
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -828,6 +988,16 @@
   {
     "description": "Peaches, yellow, raw",
     "foodNutrients": [
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 10.1
+      },
       {
         "type": "FoodNutrient",
         "nutrient": {
@@ -878,6 +1048,16 @@
         "min": 0.13,
         "median": 0.15,
         "amount": 0.15
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 9.87
       }
     ],
     "foodPortions": {
@@ -921,6 +1101,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 17.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -944,6 +1134,16 @@
         "min": 3.79,
         "median": 3.93,
         "amount": 3.96
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 14.9
       }
     ],
     "foodPortions": {
@@ -987,6 +1187,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 49.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -1010,6 +1220,16 @@
         "min": 1.17,
         "median": 1.48,
         "amount": 1.51
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 44.8
       }
     ],
     "foodPortions": {
@@ -1035,6 +1255,16 @@
         "min": 0.91,
         "median": 1.26,
         "amount": 1.21
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.3
       },
       {
         "type": "FoodNutrient",
@@ -1118,6 +1348,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.3
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -1128,6 +1368,16 @@
         "min": 0.63,
         "median": 0.67,
         "amount": 0.68
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 6.39
       }
     ],
     "foodPortions": {
@@ -1194,6 +1444,26 @@
         "min": 0.8,
         "median": 1.01,
         "amount": 1.06
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 12.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.0
       }
     ],
     "foodPortions": {
@@ -1206,6 +1476,16 @@
   {
     "description": "Nectarines, raw",
     "foodNutrients": [
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 9.18
+      },
       {
         "type": "FoodNutrient",
         "nutrient": {
@@ -1256,6 +1536,16 @@
         "min": 0.13,
         "median": 0.18,
         "amount": 0.17
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 9.42
       }
     ],
     "foodPortions": {
@@ -1268,6 +1558,16 @@
   {
     "description": "Cheese, cheddar",
     "foodNutrients": [
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.44
+      },
       {
         "type": "FoodNutrient",
         "nutrient": {
@@ -1337,6 +1637,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.31
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -1402,6 +1712,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.44
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -1454,6 +1774,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 1.87
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -1489,6 +1819,16 @@
         "min": 22.5,
         "median": 25.1,
         "amount": 25.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.59
       },
       {
         "type": "FoodNutrient",
@@ -1541,6 +1881,16 @@
         "min": 53.3,
         "median": 55.6,
         "amount": 55.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 1.07
       },
       {
         "type": "FoodNutrient",
@@ -1610,6 +1960,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.64
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -1649,6 +2009,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 12.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -1673,6 +2043,16 @@
         "min": 0.4,
         "median": 0.6,
         "amount": 0.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 12.0
       }
     ],
     "foodPortions": {
@@ -1711,6 +2091,16 @@
         "min": 98.6,
         "median": 99.1,
         "amount": 99.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.84
       },
       {
         "type": "FoodNutrient",
@@ -1767,6 +2157,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -1802,6 +2202,16 @@
         "min": 2.17,
         "median": 3.26,
         "amount": 3.24
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       },
       {
         "type": "FoodNutrient",
@@ -1872,6 +2282,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 8.05
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -1895,6 +2315,16 @@
         "min": 0.14,
         "median": 0.23,
         "amount": 0.23
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 7.31
       }
     ],
     "foodPortions": {
@@ -1933,6 +2363,16 @@
         "min": 3.02,
         "median": 3.62,
         "amount": 3.73
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.27
       },
       {
         "type": "FoodNutrient",
@@ -2013,6 +2453,26 @@
         "min": 0.99,
         "median": 1.17,
         "amount": 1.15
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 4.32
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.96
       }
     ],
     "foodPortions": {
@@ -2079,6 +2539,26 @@
         "min": 5.12,
         "median": 5.88,
         "amount": 5.79
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 67.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 69.6
       }
     ],
     "foodPortions": {
@@ -2131,6 +2611,16 @@
         "min": 0.56,
         "median": 0.88,
         "amount": 0.84
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.32
       }
     ],
     "foodPortions": {
@@ -2169,6 +2659,16 @@
         "min": 12.9,
         "median": 17.5,
         "amount": 16.3
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       },
       {
         "type": "FoodNutrient",
@@ -2225,6 +2725,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -2277,6 +2787,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.08
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -2312,6 +2832,16 @@
         "min": 1.34,
         "median": 2.95,
         "amount": 3.19
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 32.5
       },
       {
         "type": "FoodNutrient",
@@ -2395,6 +2925,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 15.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -2405,6 +2945,16 @@
         "min": 0.89,
         "median": 1.19,
         "amount": 1.18
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 15.4
       }
     ],
     "foodPortions": {
@@ -2461,6 +3011,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 31.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -2471,6 +3031,16 @@
         "min": 0.82,
         "median": 0.9,
         "amount": 0.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 30.7
       }
     ],
     "foodPortions": {
@@ -2496,6 +3066,16 @@
         "min": 3.15,
         "median": 3.54,
         "amount": 3.55
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 43.1
       },
       {
         "type": "FoodNutrient",
@@ -2537,6 +3117,16 @@
         "min": 1.81,
         "median": 1.93,
         "amount": 1.97
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 39.2
       }
     ],
     "foodPortions": {
@@ -2562,6 +3152,16 @@
         "min": 3.85,
         "median": 5.4,
         "amount": 6.36
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       },
       {
         "type": "FoodNutrient",
@@ -2601,6 +3201,16 @@
         "min": 2.33,
         "median": 6.41,
         "amount": 6.39
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       },
       {
         "type": "FoodNutrient",
@@ -2654,6 +3264,16 @@
         "min": 1.47,
         "median": 2.26,
         "amount": 2.48
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       }
     ],
     "foodPortions": {
@@ -2679,6 +3299,16 @@
         "min": 0.53,
         "median": 2.5,
         "amount": 2.41
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       },
       {
         "type": "FoodNutrient",
@@ -2732,6 +3362,16 @@
         "min": 21.0,
         "median": 22.6,
         "amount": 22.7
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       }
     ],
     "foodPortions": {
@@ -2771,6 +3411,16 @@
         "min": 7.44,
         "median": 11.2,
         "amount": 11.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       }
     ],
     "foodPortions": {
@@ -2823,6 +3473,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 7.92
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -2833,6 +3493,16 @@
         "min": 0.08,
         "median": 0.14,
         "amount": 0.13
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 7.79
       }
     ],
     "foodPortions": {
@@ -2871,6 +3541,16 @@
         "min": 23.6,
         "median": 23.9,
         "amount": 24.3
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.07
       },
       {
         "type": "FoodNutrient",
@@ -2927,6 +3607,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.86
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -2966,6 +3656,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 1.44
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -3001,6 +3701,16 @@
   {
     "description": "Figs, dried, uncooked",
     "foodNutrients": [
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 63.9
+      },
       {
         "type": "FoodNutrient",
         "nutrient": {
@@ -3051,6 +3761,16 @@
         "min": 0.39,
         "median": 0.51,
         "amount": 0.53
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 62.8
       }
     ],
     "foodPortions": {
@@ -3063,6 +3783,16 @@
   {
     "description": "Lettuce, cos or romaine, raw",
     "foodNutrients": [
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.24
+      },
       {
         "type": "FoodNutrient",
         "nutrient": {
@@ -3117,6 +3847,16 @@
         "min": 0.16,
         "median": 0.2,
         "amount": 0.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 3.0
       }
     ],
     "foodPortions": {
@@ -3129,6 +3869,16 @@
   {
     "description": "Melons, cantaloupe, raw",
     "foodNutrients": [
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 8.16
+      },
       {
         "type": "FoodNutrient",
         "nutrient": {
@@ -3179,6 +3929,16 @@
         "min": 0.1,
         "median": 0.13,
         "amount": 0.13
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 8.69
       }
     ],
     "foodPortions": {
@@ -3235,6 +3995,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 11.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -3245,6 +4015,16 @@
         "min": 0.11,
         "median": 0.15,
         "amount": 0.14
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 10.6
       }
     ],
     "foodPortions": {
@@ -3283,6 +4063,16 @@
         "min": 0.72,
         "median": 0.94,
         "amount": 0.95
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.18
       },
       {
         "type": "FoodNutrient",
@@ -3353,6 +4143,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 15.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -3419,6 +4219,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 25.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -3429,6 +4239,16 @@
         "min": 1.03,
         "median": 1.38,
         "amount": 1.42
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 23.0
       }
     ],
     "foodPortions": {
@@ -3481,6 +4301,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.92
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -3515,6 +4345,16 @@
         "min": 1.09,
         "median": 1.4,
         "amount": 1.44
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.74
       },
       {
         "type": "FoodNutrient",
@@ -3557,6 +4397,16 @@
         "min": 1.7,
         "median": 1.8,
         "amount": 1.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 5.66
       }
     ],
     "foodPortions": {
@@ -3581,6 +4431,16 @@
         "min": 3.0,
         "median": 3.32,
         "amount": 3.36
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.9
       },
       {
         "type": "FoodNutrient",
@@ -3638,6 +4498,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.37
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -3686,6 +4556,16 @@
         "min": 19.1,
         "median": 26.8,
         "amount": 26.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.15
       },
       {
         "type": "FoodNutrient",
@@ -3765,6 +4645,16 @@
         "min": 15.4,
         "median": 19.4,
         "amount": 19.3
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.63
       }
     ],
     "foodPortions": {
@@ -3790,6 +4680,16 @@
         "min": 2.59,
         "median": 3.21,
         "amount": 3.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.63
       },
       {
         "type": "FoodNutrient",
@@ -3859,6 +4759,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.93
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -3911,6 +4821,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 99.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -3959,6 +4879,16 @@
         "min": 25.6,
         "median": 26.9,
         "amount": 27.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       },
       {
         "type": "FoodNutrient",
@@ -4025,6 +4955,16 @@
         "min": 17.1,
         "median": 19.5,
         "amount": 19.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.36
       }
     ],
     "foodPortions": {
@@ -4077,6 +5017,16 @@
         "min": 14.7,
         "median": 17.4,
         "amount": 17.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.35
       }
     ],
     "foodPortions": {
@@ -4993,6 +5943,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.27
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "204",
           "name": "Total lipid (fat)",
           "rank": 800,
@@ -5044,6 +6004,16 @@
         "min": 0.25,
         "median": 0.41,
         "amount": 0.41
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 3.8
       }
     ],
     "foodPortions": {
@@ -5096,6 +6066,16 @@
         "min": 0.81,
         "median": 1.06,
         "amount": 1.11
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 26.8
       }
     ],
     "foodPortions": {
@@ -5134,6 +6114,16 @@
         "min": 0.0,
         "median": 0.0,
         "amount": 0.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.36
       },
       {
         "type": "FoodNutrient",
@@ -5186,6 +6176,16 @@
         "min": 15.6,
         "median": 16.1,
         "amount": 16.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 1.02
       },
       {
         "type": "FoodNutrient",
@@ -5282,6 +6282,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.96
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -5306,6 +6316,16 @@
         "min": 0.0,
         "median": 0.0,
         "amount": 0.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 0.2
       }
     ],
     "foodPortions": {
@@ -5358,6 +6378,16 @@
         "min": 31.8,
         "median": 40.2,
         "amount": 40.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.1
       }
     ],
     "foodPortions": {
@@ -5425,6 +6455,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 77.3
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -5460,6 +6500,16 @@
         "min": 1.3,
         "median": 1.5,
         "amount": 1.48
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 73.2
       },
       {
         "type": "FoodNutrient",
@@ -5512,6 +6562,16 @@
         "min": 1.5,
         "median": 1.6,
         "amount": 1.7
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 74.6
       },
       {
         "type": "FoodNutrient",
@@ -5578,6 +6638,16 @@
         "min": 2.5,
         "median": 2.55,
         "amount": 2.73
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 71.2
       },
       {
         "type": "FoodNutrient",
@@ -5661,6 +6731,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 72.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -5696,6 +6776,16 @@
         "min": 1.1,
         "median": 1.3,
         "amount": 1.3
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 79.8
       },
       {
         "type": "FoodNutrient",
@@ -5803,6 +6893,16 @@
         "min": 5.43,
         "median": 6.6,
         "amount": 6.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 80.8
       }
     ],
     "foodPortions": {
@@ -5881,6 +6981,16 @@
         "min": 0.0,
         "median": 0.1,
         "amount": 0.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 9.93
       }
     ],
     "foodPortions": {
@@ -5934,6 +7044,16 @@
         "min": 0.0,
         "median": 0.0,
         "amount": 0.05
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 8.61
       }
     ],
     "foodPortions": {
@@ -6000,6 +7120,16 @@
         "min": 5.31,
         "median": 6.66,
         "amount": 6.62
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 28.2
       }
     ],
     "foodPortions": {
@@ -6025,6 +7155,16 @@
         "min": 3.1,
         "median": 3.32,
         "amount": 3.33
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 32.9
       },
       {
         "type": "FoodNutrient",
@@ -6064,6 +7204,16 @@
   {
     "description": "Flour, soy, full-fat",
     "foodNutrients": [
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 27.9
+      },
       {
         "type": "FoodNutrient",
         "nutrient": {
@@ -6146,6 +7296,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 75.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "202",
           "name": "Nitrogen",
           "rank": 500,
@@ -6208,6 +7368,16 @@
         "min": 6.5,
         "median": 6.66,
         "amount": 6.69
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 80.1
       }
     ],
     "foodPortions": {
@@ -6260,6 +7430,16 @@
         "min": 8.06,
         "median": 8.88,
         "amount": 8.75
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 77.2
       }
     ],
     "foodPortions": {
@@ -6326,6 +7506,16 @@
         "min": 0.56,
         "median": 0.88,
         "amount": 0.89
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 7.68
       }
     ],
     "foodPortions": {
@@ -6392,6 +7582,26 @@
         "min": 0.62,
         "median": 0.69,
         "amount": 0.73
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 20.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 18.0
       }
     ],
     "foodPortions": {
@@ -6404,6 +7614,16 @@
   {
     "description": "Bananas, ripe and slightly ripe, raw",
     "foodNutrients": [
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 23.0
+      },
       {
         "type": "FoodNutrient",
         "nutrient": {
@@ -6458,6 +7678,16 @@
         "min": 0.11,
         "median": 0.12,
         "amount": 0.12
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 21.2
       }
     ],
     "foodPortions": {
@@ -6524,6 +7754,26 @@
         "min": 0.125,
         "median": 0.188,
         "amount": 0.188
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 14.3
       }
     ],
     "foodPortions": {
@@ -6590,6 +7840,26 @@
         "min": 0.0,
         "median": 0.125,
         "amount": 0.148
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 15.7
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 15.4
       }
     ],
     "foodPortions": {
@@ -6656,6 +7926,26 @@
         "min": 0.0,
         "median": 0.188,
         "amount": 0.133
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 13.9
       }
     ],
     "foodPortions": {
@@ -6722,6 +8012,26 @@
         "min": 0.188,
         "median": 0.281,
         "amount": 0.266
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 13.2
       }
     ],
     "foodPortions": {
@@ -6788,6 +8098,26 @@
         "min": 0.0,
         "median": 0.125,
         "amount": 0.102
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.7
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 14.1
       }
     ],
     "foodPortions": {
@@ -6884,6 +8214,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 7.59
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "291",
           "name": "Fiber, total dietary",
           "rank": 1200,
@@ -6947,6 +8287,16 @@
         "min": 1.62,
         "median": 2.81,
         "amount": 2.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.94
       },
       {
         "type": "FoodNutrient",
@@ -7018,6 +8368,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 8.17
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "291",
           "name": "Fiber, total dietary",
           "rank": 1200,
@@ -7081,6 +8441,16 @@
         "min": 2.12,
         "median": 2.91,
         "amount": 2.89
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.08
       },
       {
         "type": "FoodNutrient",
@@ -7162,6 +8532,16 @@
         "min": 3.0,
         "median": 3.47,
         "amount": 3.55
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 1.29
       }
     ],
     "foodPortions": {
@@ -7228,6 +8608,16 @@
         "min": 0.438,
         "median": 0.531,
         "amount": 0.555
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.337
       }
     ],
     "foodPortions": {
@@ -7294,6 +8684,26 @@
         "min": 2.5,
         "median": 2.69,
         "amount": 2.85
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.41
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205.2",
+          "name": "Carbohydrate, by summation",
+          "rank": 1120,
+          "unitName": "g"
+        },
+        "amount": 1.56
       }
     ],
     "foodPortions": {
@@ -7360,6 +8770,16 @@
         "min": 2.5,
         "median": 2.75,
         "amount": 2.91
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.64
       }
     ],
     "foodPortions": {
@@ -7426,6 +8846,16 @@
         "min": 0.562,
         "median": 0.656,
         "amount": 0.696
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.84
       }
     ],
     "foodPortions": {
@@ -7492,6 +8922,16 @@
         "min": 10.1,
         "median": 11.2,
         "amount": 11.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 74.4
       }
     ],
     "foodPortions": {
@@ -7558,6 +8998,16 @@
         "min": 11.8,
         "median": 14.8,
         "amount": 14.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 70.7
       }
     ],
     "foodPortions": {
@@ -7624,6 +9074,16 @@
         "min": 9.25,
         "median": 11.0,
         "amount": 11.7
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 73.8
       }
     ],
     "foodPortions": {
@@ -7690,6 +9150,16 @@
         "min": 11.4,
         "median": 13.5,
         "amount": 13.3
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 72.0
       }
     ],
     "foodPortions": {
@@ -7742,6 +9212,16 @@
         "min": 0.0,
         "median": 0.125,
         "amount": 0.086
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 11.4
       }
     ],
     "foodPortions": {
@@ -7794,6 +9274,16 @@
         "min": 0.562,
         "median": 0.75,
         "amount": 0.734
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 10.3
       }
     ],
     "foodPortions": {
@@ -7846,6 +9336,16 @@
         "min": 0.188,
         "median": 0.25,
         "amount": 0.258
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 15.6
       }
     ],
     "foodPortions": {
@@ -7898,6 +9398,16 @@
         "min": 0.0,
         "median": 0.062,
         "amount": 0.094
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 15.8
       }
     ],
     "foodPortions": {
@@ -7950,6 +9460,16 @@
         "min": 0.0,
         "median": 0.0,
         "amount": 0.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 7.26
       }
     ],
     "foodPortions": {
@@ -8002,6 +9522,16 @@
         "min": 0.438,
         "median": 0.562,
         "amount": 0.57
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 9.1
       }
     ],
     "foodPortions": {
@@ -8054,6 +9584,16 @@
         "min": 0.688,
         "median": 0.875,
         "amount": 0.859
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.32
       }
     ],
     "foodPortions": {
@@ -8106,6 +9646,16 @@
         "min": 0.688,
         "median": 0.844,
         "amount": 0.812
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 10.0
       }
     ],
     "foodPortions": {
@@ -8158,6 +9708,16 @@
         "min": 2.06,
         "median": 2.53,
         "amount": 2.75
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.66
       },
       {
         "type": "FoodNutrient",
@@ -8229,6 +9789,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 8.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "291",
           "name": "Fiber, total dietary",
           "rank": 1200,
@@ -8292,6 +9862,16 @@
         "min": 2.12,
         "median": 2.38,
         "amount": 2.42
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 8.14
       },
       {
         "type": "FoodNutrient",
@@ -8363,6 +9943,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.01
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "291",
           "name": "Fiber, total dietary",
           "rank": 1200,
@@ -8426,6 +10016,16 @@
         "min": 1.19,
         "median": 2.5,
         "amount": 2.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.6
       },
       {
         "type": "FoodNutrient",
@@ -8497,6 +10097,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.76
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "291",
           "name": "Fiber, total dietary",
           "rank": 1200,
@@ -8560,6 +10170,16 @@
         "min": 2.69,
         "median": 3.16,
         "amount": 3.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.76
       },
       {
         "type": "FoodNutrient",
@@ -8641,6 +10261,16 @@
         "min": 2.56,
         "median": 2.69,
         "amount": 2.78
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.0
       }
     ],
     "foodPortions": {
@@ -8707,6 +10337,16 @@
         "min": 0.438,
         "median": 0.531,
         "amount": 0.656
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.671
       }
     ],
     "foodPortions": {
@@ -8773,6 +10413,16 @@
         "min": 0.375,
         "median": 0.844,
         "amount": 0.797
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.1
       }
     ],
     "foodPortions": {
@@ -8839,6 +10489,16 @@
         "min": 0.688,
         "median": 0.938,
         "amount": 0.941
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 10.3
       }
     ],
     "foodPortions": {
@@ -8905,6 +10565,16 @@
         "min": 0.625,
         "median": 0.812,
         "amount": 0.805
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 9.08
       }
     ],
     "foodPortions": {
@@ -8971,6 +10641,16 @@
         "min": 0.625,
         "median": 0.719,
         "amount": 0.715
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.78
       }
     ],
     "foodPortions": {
@@ -9024,6 +10704,16 @@
         "min": 0.0,
         "median": 1.09,
         "amount": 1.07
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.6
       },
       {
         "type": "FoodNutrient",
@@ -9090,6 +10780,16 @@
         "min": 0.934,
         "median": 1.17,
         "amount": 1.16
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.65
       },
       {
         "type": "FoodNutrient",
@@ -9169,6 +10869,16 @@
         "min": 0.688,
         "median": 0.875,
         "amount": 0.882
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.7
       }
     ],
     "foodPortions": {
@@ -9221,6 +10931,16 @@
         "min": 3.25,
         "median": 3.41,
         "amount": 3.46
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.81
       }
     ],
     "foodPortions": {
@@ -9260,6 +10980,16 @@
         "min": 3.66,
         "median": 4.52,
         "amount": 4.48
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.57
       },
       {
         "type": "FoodNutrient",
@@ -9316,6 +11046,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.75
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -9368,6 +11108,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.33
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -9416,6 +11166,16 @@
         "min": 14.8,
         "median": 19.0,
         "amount": 19.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.58
       },
       {
         "type": "FoodNutrient",
@@ -9495,6 +11255,16 @@
         "min": 21.9,
         "median": 26.5,
         "amount": 26.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 16.2
       }
     ],
     "foodPortions": {
@@ -9548,6 +11318,16 @@
         "min": 8.75,
         "median": 9.54,
         "amount": 10.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 69.9
       },
       {
         "type": "FoodNutrient",
@@ -9614,6 +11394,16 @@
         "min": 0.0,
         "median": 6.35,
         "amount": 5.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 79.9
       },
       {
         "type": "FoodNutrient",
@@ -9693,6 +11483,16 @@
         "min": 23.2,
         "median": 23.9,
         "amount": 24.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 22.7
       }
     ],
     "foodPortions": {
@@ -9746,6 +11546,16 @@
         "min": 57.2,
         "median": 62.7,
         "amount": 62.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.2
       },
       {
         "type": "FoodNutrient",
@@ -9816,6 +11626,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 21.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -9882,6 +11702,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 34.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -9943,6 +11773,16 @@
         "min": 9.7,
         "median": 11.2,
         "amount": 11.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.6
       }
     ],
     "foodPortions": {
@@ -9982,6 +11822,16 @@
         "min": 32.1,
         "median": 33.6,
         "amount": 33.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.56
       },
       {
         "type": "FoodNutrient",
@@ -10047,6 +11897,16 @@
         "min": 1.98,
         "median": 1.98,
         "amount": 2.02
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.8
       }
     ],
     "foodPortions": {
@@ -10099,6 +11959,16 @@
         "min": 2.42,
         "median": 2.87,
         "amount": 3.07
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 5.56
       }
     ],
     "foodPortions": {
@@ -10151,6 +12021,16 @@
         "min": 0.5,
         "median": 0.75,
         "amount": 0.742
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.37
       }
     ],
     "foodPortions": {
@@ -10203,6 +12083,16 @@
         "min": 0.75,
         "median": 0.969,
         "amount": 0.977
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.06
       }
     ],
     "foodPortions": {
@@ -10255,6 +12145,16 @@
         "min": 0.75,
         "median": 0.906,
         "amount": 0.883
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.26
       }
     ],
     "foodPortions": {
@@ -10294,6 +12194,16 @@
         "min": 0.0,
         "median": 0.15,
         "amount": 0.156
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 4.07
       },
       {
         "type": "FoodNutrient",
@@ -10364,6 +12274,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 18.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -10426,6 +12346,16 @@
         "min": 10.0,
         "median": 10.6,
         "amount": 10.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 20.0
       },
       {
         "type": "FoodNutrient",
@@ -10496,6 +12426,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 10.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -10562,6 +12502,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 12.7
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -10614,6 +12564,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 68.7
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -10662,6 +12622,16 @@
         "min": 5.1,
         "median": 5.76,
         "amount": 5.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 69.8
       },
       {
         "type": "FoodNutrient",
@@ -10732,6 +12702,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -10793,6 +12773,16 @@
         "min": 0.562,
         "median": 1.06,
         "amount": 1.04
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 16.2
       }
     ],
     "foodPortions": {
@@ -10859,6 +12849,16 @@
         "min": 1.44,
         "median": 1.78,
         "amount": 1.97
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 7.41
       }
     ],
     "foodPortions": {
@@ -10898,6 +12898,16 @@
         "min": 0.0,
         "median": 0.385,
         "amount": 0.36
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 17.8
       },
       {
         "type": "FoodNutrient",
@@ -10963,6 +12973,16 @@
         "min": 1.81,
         "median": 2.06,
         "amount": 2.06
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 16.3
       }
     ],
     "foodPortions": {
@@ -11015,6 +13035,16 @@
         "min": 1.44,
         "median": 1.75,
         "amount": 1.81
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 16.0
       }
     ],
     "foodPortions": {
@@ -11054,6 +13084,16 @@
         "min": 0.11,
         "median": 0.435,
         "amount": 0.375
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 17.3
       },
       {
         "type": "FoodNutrient",
@@ -11119,6 +13159,16 @@
         "min": 0.188,
         "median": 0.531,
         "amount": 0.492
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 3.32
       }
     ],
     "foodPortions": {
@@ -11171,6 +13221,16 @@
         "min": 0.5,
         "median": 0.625,
         "amount": 0.625
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.95
       }
     ],
     "foodPortions": {
@@ -11223,6 +13283,16 @@
         "min": 0.5,
         "median": 0.938,
         "amount": 0.961
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.38
       }
     ],
     "foodPortions": {
@@ -11275,6 +13345,16 @@
         "min": 1.12,
         "median": 1.19,
         "amount": 1.24
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 6.79
       }
     ],
     "foodPortions": {
@@ -11314,6 +13394,16 @@
         "min": 0.0,
         "median": 0.18,
         "amount": 0.22
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 7.96
       },
       {
         "type": "FoodNutrient",
@@ -11366,6 +13456,16 @@
         "min": 0.0,
         "median": 0.205,
         "amount": 0.188
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 12.9
       },
       {
         "type": "FoodNutrient",
@@ -11431,6 +13531,16 @@
         "min": 0.5,
         "median": 0.625,
         "amount": 0.703
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 14.6
       }
     ],
     "foodPortions": {
@@ -11483,6 +13593,16 @@
         "min": 0.438,
         "median": 0.875,
         "amount": 0.914
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 20.2
       }
     ],
     "foodPortions": {
@@ -11535,6 +13655,16 @@
         "min": 0.688,
         "median": 0.781,
         "amount": 0.899
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 18.6
       }
     ],
     "foodPortions": {
@@ -11574,6 +13704,16 @@
         "min": 0.0,
         "median": 0.175,
         "amount": 0.162
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 12.3
       },
       {
         "type": "FoodNutrient",
@@ -11653,6 +13793,16 @@
         "min": 10.4,
         "median": 13.5,
         "amount": 13.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 68.8
       }
     ],
     "foodPortions": {
@@ -11719,6 +13869,16 @@
         "min": 9.5,
         "median": 11.8,
         "amount": 11.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 69.5
       }
     ],
     "foodPortions": {
@@ -11785,6 +13945,16 @@
         "min": 6.88,
         "median": 8.51,
         "amount": 8.27
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 77.4
       }
     ],
     "foodPortions": {
@@ -11851,6 +14021,16 @@
         "min": 5.31,
         "median": 9.79,
         "amount": 8.88
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 75.0
       }
     ],
     "foodPortions": {
@@ -11917,6 +14097,16 @@
         "min": 6.65,
         "median": 7.99,
         "amount": 8.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 77.2
       }
     ],
     "foodPortions": {
@@ -11983,6 +14173,16 @@
         "min": 6.82,
         "median": 8.6,
         "amount": 8.72
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 77.4
       }
     ],
     "foodPortions": {
@@ -12049,6 +14249,16 @@
         "min": 0.0,
         "median": 0.787,
         "amount": 0.918
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 87.3
       }
     ],
     "foodPortions": {
@@ -12115,6 +14325,16 @@
         "min": 9.74,
         "median": 11.1,
         "amount": 11.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 71.1
       }
     ],
     "foodPortions": {
@@ -12181,6 +14401,16 @@
         "min": 7.75,
         "median": 10.6,
         "amount": 10.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 74.4
       }
     ],
     "foodPortions": {
@@ -12247,6 +14477,16 @@
         "min": 6.6,
         "median": 7.17,
         "amount": 7.25
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 76.7
       }
     ],
     "foodPortions": {
@@ -12300,6 +14540,16 @@
         "min": 0.0,
         "median": 0.0,
         "amount": 0.149
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 80.3
       },
       {
         "type": "FoodNutrient",
@@ -12365,6 +14615,16 @@
         "min": 17.8,
         "median": 18.0,
         "amount": 18.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       }
     ],
     "foodPortions": {
@@ -12417,6 +14677,16 @@
         "min": 16.7,
         "median": 17.5,
         "amount": 17.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       }
     ],
     "foodPortions": {
@@ -12469,6 +14739,16 @@
         "min": 15.4,
         "median": 17.6,
         "amount": 17.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       }
     ],
     "foodPortions": {
@@ -12521,6 +14801,16 @@
         "min": 16.1,
         "median": 16.9,
         "amount": 17.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       }
     ],
     "foodPortions": {
@@ -12573,6 +14863,16 @@
         "min": 16.6,
         "median": 17.4,
         "amount": 17.3
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.0
       }
     ],
     "foodPortions": {
@@ -12639,6 +14939,16 @@
         "min": 14.7,
         "median": 15.0,
         "amount": 15.0
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 21.6
       }
     ],
     "foodPortions": {
@@ -12705,6 +15015,16 @@
         "min": 16.3,
         "median": 17.2,
         "amount": 17.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 36.3
       }
     ],
     "foodPortions": {
@@ -12771,6 +15091,16 @@
         "min": 12.5,
         "median": 13.9,
         "amount": 13.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 26.5
       }
     ],
     "foodPortions": {
@@ -12837,6 +15167,16 @@
         "min": 21.2,
         "median": 23.4,
         "amount": 23.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 26.5
       }
     ],
     "foodPortions": {
@@ -12903,6 +15243,16 @@
         "min": 4.98,
         "median": 5.11,
         "amount": 5.29
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 80.5
       }
     ],
     "foodPortions": {
@@ -12969,6 +15319,16 @@
         "min": 7.0,
         "median": 7.87,
         "amount": 7.79
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 24.1
       }
     ],
     "foodPortions": {
@@ -13035,6 +15395,16 @@
         "min": 19.3,
         "median": 20.5,
         "amount": 20.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 27.7
       }
     ],
     "foodPortions": {
@@ -13101,6 +15471,16 @@
         "min": 28.4,
         "median": 30.2,
         "amount": 29.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 18.7
       }
     ],
     "foodPortions": {
@@ -13167,6 +15547,16 @@
         "min": 16.5,
         "median": 18.4,
         "amount": 18.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 24.5
       }
     ],
     "foodPortions": {
@@ -13233,6 +15623,16 @@
         "min": 13.6,
         "median": 16.5,
         "amount": 16.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 58.9
       }
     ],
     "foodPortions": {
@@ -13285,6 +15685,16 @@
         "min": 19.5,
         "median": 21.2,
         "amount": 21.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 59.8
       }
     ],
     "foodPortions": {
@@ -13324,6 +15734,16 @@
         "min": 5.86,
         "median": 6.24,
         "amount": 6.27
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 60.4
       },
       {
         "type": "FoodNutrient",
@@ -13389,6 +15809,16 @@
         "min": 22.1,
         "median": 23.7,
         "amount": 23.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 62.2
       }
     ],
     "foodPortions": {
@@ -13441,6 +15871,16 @@
         "min": 19.1,
         "median": 21.3,
         "amount": 21.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 61.8
       }
     ],
     "foodPortions": {
@@ -13493,6 +15933,16 @@
         "min": 6.38,
         "median": 6.88,
         "amount": 6.91
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 19.8
       }
     ],
     "foodPortions": {
@@ -13545,6 +15995,16 @@
         "min": 6.0,
         "median": 6.53,
         "amount": 6.57
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 20.0
       }
     ],
     "foodPortions": {
@@ -13597,6 +16057,16 @@
         "min": 6.12,
         "median": 7.53,
         "amount": 7.41
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 18.8
       }
     ],
     "foodPortions": {
@@ -13649,6 +16119,16 @@
         "min": 6.31,
         "median": 6.91,
         "amount": 7.02
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 20.3
       }
     ],
     "foodPortions": {
@@ -13701,6 +16181,16 @@
         "min": 7.12,
         "median": 7.62,
         "amount": 7.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 21.0
       }
     ],
     "foodPortions": {
@@ -13753,6 +16243,16 @@
         "min": 6.56,
         "median": 7.44,
         "amount": 7.31
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 21.4
       }
     ],
     "foodPortions": {
@@ -13805,6 +16305,16 @@
         "min": 4.0,
         "median": 4.78,
         "amount": 4.73
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 12.7
       }
     ],
     "foodPortions": {
@@ -13844,6 +16354,16 @@
         "min": 0.92,
         "median": 1.28,
         "amount": 1.27
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 19.6
       },
       {
         "type": "FoodNutrient",
@@ -13900,6 +16420,16 @@
       {
         "type": "FoodNutrient",
         "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 19.2
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
           "number": "203",
           "name": "Protein",
           "rank": 600,
@@ -13948,6 +16478,16 @@
         "min": 0.97,
         "median": 1.24,
         "amount": 1.27
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 19.3
       },
       {
         "type": "FoodNutrient",
@@ -14013,6 +16553,16 @@
         "min": 19.3,
         "median": 21.1,
         "amount": 21.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": -0.482
       }
     ],
     "foodPortions": {
@@ -14065,6 +16615,16 @@
         "min": 20.6,
         "median": 21.2,
         "amount": 21.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": -0.594
       }
     ],
     "foodPortions": {
@@ -14117,6 +16677,16 @@
         "min": 21.6,
         "median": 22.5,
         "amount": 22.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": -0.368
       }
     ],
     "foodPortions": {
@@ -14169,6 +16739,16 @@
         "min": 17.4,
         "median": 18.8,
         "amount": 18.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": -0.406
       }
     ],
     "foodPortions": {
@@ -14221,6 +16801,16 @@
         "min": 16.9,
         "median": 19.0,
         "amount": 18.7
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": -0.306
       }
     ],
     "foodPortions": {
@@ -14273,6 +16863,16 @@
         "min": 19.7,
         "median": 21.9,
         "amount": 21.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 0.852
       }
     ],
     "foodPortions": {
@@ -14325,6 +16925,16 @@
         "min": 16.3,
         "median": 18.6,
         "amount": 18.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": -0.524
       }
     ],
     "foodPortions": {
@@ -14377,6 +16987,16 @@
         "min": 18.2,
         "median": 20.2,
         "amount": 20.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": -0.304
       }
     ],
     "foodPortions": {
@@ -14429,6 +17049,16 @@
         "min": 3.57,
         "median": 3.99,
         "amount": 4.23
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 8.08
       }
     ],
     "foodPortions": {
@@ -14468,6 +17098,16 @@
         "min": 31.0,
         "median": 32.3,
         "amount": 32.6
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 1.9
       },
       {
         "type": "FoodNutrient",
@@ -14520,6 +17160,16 @@
         "min": 19.7,
         "median": 23.6,
         "amount": 23.9
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 8.19
       },
       {
         "type": "FoodNutrient",
@@ -14585,6 +17235,16 @@
         "min": 22.2,
         "median": 23.4,
         "amount": 23.5
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.45
       }
     ],
     "foodPortions": {
@@ -14624,6 +17284,16 @@
         "min": 20.1,
         "median": 22.0,
         "amount": 22.1
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.4
       },
       {
         "type": "FoodNutrient",
@@ -14676,6 +17346,16 @@
         "min": 20.5,
         "median": 23.5,
         "amount": 23.4
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.96
       },
       {
         "type": "FoodNutrient",
@@ -14741,6 +17421,16 @@
         "min": 20.9,
         "median": 23.7,
         "amount": 23.8
+      },
+      {
+        "type": "FoodNutrient",
+        "nutrient": {
+          "number": "205",
+          "name": "Carbohydrate, by difference",
+          "rank": 1110,
+          "unitName": "g"
+        },
+        "amount": 2.72
       }
     ],
     "foodPortions": {

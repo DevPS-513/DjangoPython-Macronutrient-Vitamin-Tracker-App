@@ -22,7 +22,6 @@ urlpatterns = [
     # path for logout
     path("logout/", views.logout_view, name="logout"),
     path(route="macroapp/", view=views.macroapp, name="macroapp"),
-    path('food_search/', views.food_search, name='food_search'),
 
     # path for dealer reviews view
     # path for add a review view

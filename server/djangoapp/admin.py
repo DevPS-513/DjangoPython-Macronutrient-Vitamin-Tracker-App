@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Food, Meal, FoodNutrient, Person
+from .models import Food, Meal, FoodNutrient, Person,Day
 
 # Make it so that when adding a meal I can also Add foods to it
 class FoodInLine(admin.TabularInline):
@@ -20,5 +20,6 @@ admin.site.register(Food)
 admin.site.register(Meal, MealAdmin)
 admin.site.register(FoodNutrient)
 admin.site.register(Person)
+admin.site.register(Day)
 
 

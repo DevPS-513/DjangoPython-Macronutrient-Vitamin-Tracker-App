@@ -6,8 +6,12 @@
 {% load getattribute %}
 {% load crispy_forms_tags %} {% block content %}
 {% load widget_tweaks %}
+{% load protein_filter %}
+
 <form method="post">
     {% csrf_token %}
+    <input type="hidden" name="form_type" value="person_form">
+
 
         <div class="container">
         <table>
@@ -67,6 +71,36 @@
 </tr>
 </table>
 
+<form method="post">
+    {% csrf_token %}
+    <input type="hidden" name="form_type" value="day_form">
+    {{ foodform }}
+    <input type="submit" value="Save">
+</form>
+
+
+
+<table>
+    <tr>
+    <th>Food</th>
+    <th>Calories</th>
+    <th>Protein</th>
+    <th>Carbs</th>
+    <th>Fat</th>
+
+    </tr>
+    
+
+
+    {% for food in today_object.foods.all %}
+    <tr>
+        <td>{{food.description}}</td>
+        <td>{{food.calories}}</td>
+        <td> {{ food|get_nutrient:"protein" }}g</td>
+        <td> {{ food|get_nutrient:"carb"  }}g</td>
+        <td> {{ food|get_nutrient:"fat" }}g</td>
+    </tr>
+    {% endfor %}
 
 
 {% endblock %}
