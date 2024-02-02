@@ -87,6 +87,8 @@
     <th>Protein</th>
     <th>Carbs</th>
     <th>Fat</th>
+    <th>Vitamin A</th>
+
 
     </tr>
     
@@ -99,6 +101,8 @@
         <td> {{ food|get_nutrient:"protein" }}g</td>
         <td> {{ food|get_nutrient:"carb"  }}g</td>
         <td> {{ food|get_nutrient:"fat" }}g</td>
+        <td> {{ food|get_vitamin_by_letter:"A" }}g</td>
+
     </tr>
     {% endfor %}
 
