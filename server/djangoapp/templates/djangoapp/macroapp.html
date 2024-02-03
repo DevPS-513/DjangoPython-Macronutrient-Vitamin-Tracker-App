@@ -53,58 +53,27 @@
 
 </div>      
     <button type="submit" class="btn btn-success">Calculate</button>
+    Maitenance Calories: <strong>{{person.BMR}}</strong>
 </form>
 
 <br>
 <table>
 
-<!--
-<tr>
-    <td>B.M.I:</td>
-    <td>{{person.BMI}}</td>
-</tr>
--->
 
-<tr>
-    <td>Maitenance Calories:</td>
-    <td>{{person.BMR}}</td>
-</tr>
 </table>
 
 <form method="post">
     {% csrf_token %}
     <input type="hidden" name="form_type" value="day_form">
     {{ foodform }}
-    <input type="submit" value="Save">
+    <input type="submit" value="Add to Day">
 </form>
 
 
 
-<table>
-    <tr>
-    <th>Food</th>
-    <th>Calories</th>
-    <th>Protein</th>
-    <th>Carbs</th>
-    <th>Fat</th>
-    <th>Vitamin A</th>
+    {{ Day_df_html|safe }}
 
-
-    </tr>
-    
-
-
-    {% for food in today_object.foods.all %}
-    <tr>
-        <td>{{food.description}}</td>
-        <td>{{food.calories}}</td>
-        <td> {{ food|get_nutrient:"protein" }}g</td>
-        <td> {{ food|get_nutrient:"carb"  }}g</td>
-        <td> {{ food|get_nutrient:"fat" }}g</td>
-        <td> {{ food|get_vitamin_by_letter:"A" }}g</td>
-
-    </tr>
-    {% endfor %}
-
+    <h5>Totals</h5>
+    {{ totals_df_html|safe }}
 
 {% endblock %}

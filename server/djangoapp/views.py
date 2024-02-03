@@ -4,6 +4,8 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect, HttpResponse,HttpRequest
 from django.contrib.auth.models import User
 from django.shortcuts import get_object_or_404, render, redirect
+import pandas as pd 
+
 
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
@@ -60,7 +62,8 @@ def macroapp(request: HttpRequest):
     personform=PersonForm()
     foodform=FoodForm()
 
-    today_obj, created = Day.objects.get_or_create(date=datetime.now().date())
+    # keep this
+    today_obj, created = Day.objects.get_or_create(name="Today",date=datetime.now().date())
 
     if request.method == 'POST':
         form_type = request.POST.get('form_type')
@@ -78,11 +81,69 @@ def macroapp(request: HttpRequest):
         personform = PersonForm()
         foodform = FoodForm()
 
+    # convert to a datafrmae
+        
+    Day_df=pd.DataFrame(data=None,columns=['Description','Calories','Protein','fat','carbs','Vitamin A'])
+
+
+    for food in today_obj.foods.all():
+        
+        Day_df_row=pd.DataFrame({'Description':food.description,'Calories':food.calories,\
+                              'Protein':food.get_nutrient('protein'),'fat':food.get_nutrient('fat'),\
+                                'carbs':food.get_nutrient('carb'),
+                                'Vitamin A':food.get_vitamin_by_letter('A'),
+                               'Vitamin C':food.get_vitamin_by_letter('C'), 
+                               'Vitamin D':food.get_vitamin_by_letter('D')},index=[0])
+        Day_df=pd.concat([Day_df,Day_df_row],axis=0)
+    
+
+
+    unit_dict={'g':1,'mg':0.001,'mcg':0.000001,'IU':0.0000000003,'kcal':1,'µg':0.000001}
+
+    # now get the summation of every column
+    totals=[]
+    for i,nutrient in enumerate(['Calories','Protein','fat','carbs','Vitamin A','Vitamin C','Vitamin D']):
+        totals.append(0)
+        for val in Day_df[nutrient]:
+            if(type(val)==str):
+                values=val.split(' ')
+                if len(values)>1:
+                    totals[i]=totals[i]+float(values[0])*unit_dict[values[1]]
+            else:
+                totals[i]=totals[i]+float(val)
+
+    daily_recommended_intake=["Recommended",person.BMR,int(.75*person.weight_lbs),'','',int(900),90,20]
+
+    totals_df=pd.DataFrame({'Description':['Total',daily_recommended_intake[0]],\
+                            'Calories':[totals[0],daily_recommended_intake[1]],\
+                            'Protein(g)':[totals[1],daily_recommended_intake[2]],\
+                                'fat':[totals[2],daily_recommended_intake[3]],\
+                                'carbs':[totals[3],daily_recommended_intake[4]],\
+                                'Vitamin A(mcg)':[totals[4],daily_recommended_intake[5]],
+                                  'Vitamin C(mcg)':[totals[5],daily_recommended_intake[6]],
+                                    'Vitamin D(mcg)':[totals[6],daily_recommended_intake[7]] })
+
+    Day_df_html=Day_df.to_html(index=False,float_format="{:,.2f}".format)
+
+    
+
+    totals_df_html=totals_df.to_html(index=False,float_format="{:,.2f}".format)
+    #      <td> {{food.description}}  </td>
+    #  <td> {{food.calories}}  </td>
+    #  <td> {{ food|get_nutrient:"protein" }}  </td>
+    #  <td> {{ food|get_nutrient:"carb"  }}  </td>
+    #  <td> {{ food|get_nutrient:"fat" }}  </td>
+    #  <td> {{ food|get_vitamin_by_letter:"A" }}  </td>
+    #  <td> {{ food|get_vitamin_by_letter:"D" }}  </td>
+    #  <td> {{ food|get_vitamin_by_letter:"C" }}  </td>
+
     context = {
         'person': person if personform.is_valid() else 'Not POST',
         'formdata': personform,
         'foodform': foodform,
-        'today_object': today_obj
+        'today_object': today_obj,
+        'Day_df_html':Day_df_html,
+        'totals_df_html':totals_df_html
     }
 
     return render(request, "djangoapp/macroapp.html", context)

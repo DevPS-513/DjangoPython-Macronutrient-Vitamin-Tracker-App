@@ -21,6 +21,9 @@ class FoodNutrient(models.Model):
     food = models.ForeignKey('Food', on_delete=models.CASCADE)
     nutrient = models.ForeignKey(Nutrient, on_delete=models.CASCADE)
     amount = models.FloatField(null=True)
+    unitName = models.CharField(max_length=150,default='',null=True)
+
+
 
     def __str__(self):
             return f"{self.amount}g of {self.nutrient.name} in {self.food.description}"
@@ -39,6 +42,19 @@ class Food(models.Model):
             return f'{self.description},{self.amount}-{self.unitName}'
         else:
             return f'{self.description},{self.calories}-kCal'
+        
+    def get_nutrient(self, nutrient_name):
+        nutrient_name = nutrient_name.lower()
+        for nutrient in self.foodnutrient_set.all():
+            if nutrient_name in str(nutrient.nutrient.name).lower():
+                return str(nutrient.amount) + " " + str(nutrient.nutrient.unitName)
+        return None
+    
+    def get_vitamin_by_letter(food, letter):
+        for nutrient in food.foodnutrient_set.all():
+            if ("vitamin" in str(nutrient.nutrient.name).lower())&(letter.lower() in str(nutrient.nutrient.name).lower()):
+                return str(nutrient.amount) + " " + str(nutrient.nutrient.unitName)
+        return None
 
 
 class MealFoodPortions(models.Model):
@@ -58,7 +74,8 @@ class Meal(models.Model):
         return self.name
     
 class Day(models.Model):
-    date=models.DateField(default=now)
+    name=models.CharField(max_length=100)
+    date=models.DateField(unique=True)
     #meals=models.ManyToManyField(Meal, blank=True)
     foods=models.ManyToManyField(Food, blank=True)
 
