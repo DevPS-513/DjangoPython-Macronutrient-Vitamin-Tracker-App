@@ -3,9 +3,6 @@
 ## Django: Vitamin and MacroNutrient App
 
 A personal Python/Django web app project that uses the food nutrition data from the U.S.A FDA API to show the vitamin,macronutrient, and calorie break down for an individual age,height, gender, ect.
-
-## Dealerships Data Table
-
 App Front Page Example As of Feb 2nd 2024
 ![DealerShip  Table](./assets/MacroApp_Front_Page_02_02_2024.png)
 
