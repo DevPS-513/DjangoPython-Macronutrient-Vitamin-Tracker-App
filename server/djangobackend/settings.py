@@ -140,4 +140,3 @@ MEDIA_URL = '/media/'
 
 
 
-print("Django app has started, you need to run the node server in the folder node_dealership_example_server first ")

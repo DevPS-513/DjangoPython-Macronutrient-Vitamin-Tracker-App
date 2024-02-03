@@ -137,13 +137,25 @@ def macroapp(request: HttpRequest):
     #  <td> {{ food|get_vitamin_by_letter:"D" }}  </td>
     #  <td> {{ food|get_vitamin_by_letter:"C" }}  </td>
 
+
+    df = pd.DataFrame({
+        'Jan': ['3', '6', 'Rec.'],
+        'Feb': ['4', '8', 'Wait.'],
+        'Mar': ['1', '8', 'Satus.']
+    })
+
+    # Convert the DataFrame to HTML
+    df_html = df.to_html(index=False)
+
+
     context = {
         'person': person if personform.is_valid() else 'Not POST',
         'formdata': personform,
         'foodform': foodform,
         'today_object': today_obj,
         'Day_df_html':Day_df_html,
-        'totals_df_html':totals_df_html
+        'totals_df_html':totals_df_html,
+        'sample_df':df_html
     }
 
     return render(request, "djangoapp/macroapp.html", context)
